@@ -1,5 +1,5 @@
-Welcome to the Linux Mint Installation Guide
-============================================
+Linux Mint Installation Guide
+=============================
 
 This guide will you help install Linux Mint on your computer.
 
@@ -10,21 +10,21 @@ Linux Mint comes in the form of an ISO image (an .iso file) which can be used to
 
 .. toctree::
    :maxdepth: 1
-   :caption: Downloading Linux Mint
+   :caption: Download
 
    choose
    verify
 
 .. toctree::
    :maxdepth: 1
-   :caption: Booting Linux Mint
+   :caption: Live Boot
 
    burn
    boot
 
 .. toctree::
    :maxdepth: 1
-   :caption: Installing Linux Mint
+   :caption: Installation
 
    install
 
