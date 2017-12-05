@@ -29,4 +29,4 @@ Now that you have Linux Mint on a USB stick (or DVD) let's boot the computer fro
 
     The grub menu in EFI mode
 
-5. From one of these menu, press Enter to start Linux Mint from your USB stick (or DVD).
+5. From one of these menu, press :guilabel:`Enter` to start Linux Mint from your USB stick (or DVD).
