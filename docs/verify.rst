@@ -10,16 +10,16 @@ The authenticity check confirms that the ISO image you downloaded was signed by 
 Download the SHA256 sums provided by Linux Mint
 -----------------------------------------------
 
-All `download mirrors <https://www.linuxmint.com/mirrors.php>`_ provide both the ISO images and a sha256sum.txt file, so you should be able to find that file in the same place you downloaded the ISO image from.
+All `download mirrors <https://www.linuxmint.com/mirrors.php>`_ provide the ISO images, a ``sha256sum.txt`` file and a ``sha256sum.txt.gpg`` file. You should be able to find these files in the same place you downloaded the ISO image from.
 
-If you are unable to find it, you can browse `this mirror <https://ftp.heanet.ie/mirrors/linuxmint.com/stable/>`_ and select the version corresponding to the Linux Mint release you downloaded.
+If you are unable to find them, you can browse `this mirror <https://ftp.heanet.ie/mirrors/linuxmint.com/stable/>`_ and select the version corresponding to the Linux Mint release you downloaded.
 
-Download both the sha256sum.txt and the sha256sum.txt.gpg files. These two files are used to check the integrity and authenticity of your ISO image.
+Download both the ``sha256sum.txt`` and the ``sha256sum.txt.gpg`` files. These two files are used to check the integrity and authenticity of your ISO image.
 
 Integrity check
 ---------------
 
-To check the integrity of your local ISO file, generate its SHA256 sum and compare it with the sum present in the sha256sum.txt file.
+To check the integrity of your local ISO file, generate its SHA256 sum and compare it with the sum present in the ``sha256sum.txt`` file.
 
 .. code-block:: console
 
@@ -39,7 +39,7 @@ If the sums match, your file was successfully downloaded. If they don't, downloa
 Authenticity check
 ------------------
 
-To verify the authenticity of the sha256sum.txt file, we need to check the signature on the sha256sum.txt.gpg file.
+To verify the authenticity of the ``sha256sum.txt`` file, we need to check the signature on the ``sha256sum.txt.gpg`` file.
 
 Import the Linux Mint signing key:
 ``````````````````````````````````
