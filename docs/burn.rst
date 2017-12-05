@@ -11,7 +11,7 @@ How to make a bootable USB stick
 Using Linux Mint
 ````````````````
 
-In Linux Mint, right-click the ISO file and select ``Make Bootable USB Stick``, or launch the ``USB Image Writer`` from the application menu.
+In Linux Mint, right-click the ISO file and select :menuselection:`Make Bootable USB Stick`, or launch the :menuselection:`USB Image Writer` from the application menu.
 
 .. figure:: images/mintstick.png
     :width: 500px
@@ -19,7 +19,7 @@ In Linux Mint, right-click the ISO file and select ``Make Bootable USB Stick``, 
 
     Using the USB Image Writer in Linux Mint
 
-Select your USB device and press the ``Write`` button.
+Select your USB device and press the :guilabel:`Write` button.
 
 Using Windows, Mac, or other Linux distributions
 ````````````````````````````````````````````````
@@ -32,11 +32,11 @@ Download `Etcher <https://etcher.io/>`_, install it and run it.
 
     Using Etcher
 
-Press the ``Select image`` button and select your ISO file.
+Press the :guilabel:`Select image` button and select your ISO file.
 
-Press the ``Select drive`` button and select your USB stick.
+Press the :guilabel:`Select drive` button and select your USB stick.
 
-Press the ``Flash!`` button.
+Press the :guilabel:`Flash!` button.
 
 
 How to make a bootable DVD
@@ -56,10 +56,10 @@ In Linux, install and use ``xfburn``.
 
 Using Windows
 `````````````
-In Windows, right-click the ISO file and select ``Burn disk image``.
+In Windows, right-click the ISO file and select :menuselection:`Burn disk image`.
 
-Select ``Verify disc after burning`` to make sure the ISO was burned without any errors.
+Select :menuselection:`Verify disc after burning` to make sure the ISO was burned without any errors.
 
 Using Mac
 `````````
-In Mac OS, right-click the ISO file and select ``Burn Disk Image to Disc``.
+In Mac OS, right-click the ISO file and select :menuselection:`Burn Disk Image to Disc`.
