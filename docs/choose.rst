@@ -57,7 +57,7 @@ We encourage everyone to run Linux Mint in 64-bit.
 
 The 32-bit ISO images are provided for compatibility with older computers. 32-bit processors are extremely rare nowadays and most computers are able to run in 64-bit. If your computer was manufactured after 2007, you probably have a 64-bit processor.
 
-If you have an old computer and you are unsure whether or not it can run in 64-bit, please check the following table:
+If you have an old computer and you are unsure whether or not it can run in 64-bit, please check the following link:
 
 https://en.wikipedia.org/wiki/X86#Chronology
 
