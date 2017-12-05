@@ -1,6 +1,10 @@
 Choose the right edition
 ========================
 
+You can download Linux Mint from https://linuxmint.com/download.php.
+
+Read below to help you choose which edition and architecture are right for you.
+
 Cinnamon, MATE or Xfce?
 -----------------------
 
