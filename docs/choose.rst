@@ -16,25 +16,28 @@ The most popular version of Linux Mint is the Cinnamon edition. Cinnamon is prim
 
 
 .. figure:: images/cinnamon.png
-   :width: 500px
+    :width: 500px
+    :align: center
 
-   Cinnamon
+    Cinnamon
 
 Linux Mint is also involved in the development of MATE, a classic desktop environment which is the continuation of GNOME 2, Linux Mint's default desktop between 2006 and 2011. Although it misses a few features and its development is slower than Cinnamon's, MATE runs faster, uses less resources and is more stable than Cinnamon.
 
 
 .. figure:: images/mate.png
-   :width: 500px
+    :width: 500px
+    :align: center
 
-   MATE
+    MATE
 
 Xfce is a lightweight desktop environment. It doesn't support as many features as Cinnamon or MATE, but it's extremely stable and very light on resource usage.
 
 
 .. figure:: images/xfce.png
-   :width: 500px
+    :width: 500px
+    :align: center
 
-   Xfce
+    Xfce
 
 Of course, all three desktops are great and Linux Mint is extremely proud of each edition. Although there are more features and better support in some editions than others, and some do run faster and use less resources than others, they're all great alternatives and choosing the right edition for you is largely a matter of taste.
 
