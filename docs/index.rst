@@ -7,14 +7,9 @@ Contents
 --------
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Section 1
+   :maxdepth: 1
+   :caption: Downloading Linux Mint
 
-   chapter1
-   chapter2
+   download
+   verify
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Section 2
-
-   chapter3

@@ -1,10 +1,10 @@
-Chapter 3
+blah Blah
 =========
 
 blah
 
-Sub1
-----
+Choosing the right edition
+--------------------------
 
 Blah
 
@@ -13,8 +13,8 @@ Blah
 * list3
 
 
-Sub2
-----
+Choosing the right architecture
+-------------------------------
 
 Blah
 
