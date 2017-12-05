@@ -1,5 +1,5 @@
-Choosing the right edition
-==========================
+Choose the right edition
+========================
 
 Cinnamon, MATE or Xfce?
 -----------------------
@@ -14,3 +14,4 @@ Blah
 * list1
 * list2
 * list3
+
