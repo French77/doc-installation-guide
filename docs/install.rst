@@ -10,7 +10,7 @@ After you boot the computer from the USB stick (or DVD), Linux Mint should start
     :width: 500px
     :align: center
 
-    The Linux Mint ``Live Session``
+    The Linux Mint Live Session
 
 The ``Live Session`` is very similar to a normal session (i.e. to what Linux Mint is like once it is permanently installed on the computer), but with the following exceptions:
 

@@ -32,6 +32,7 @@ This guide will help you download the right ISO image, create your bootable medi
    drivers
    codecs
    locales
+   timeshift
 
 .. toctree::
    :maxdepth: 1
