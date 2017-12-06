@@ -1,6 +1,6 @@
 Linux Mint Installation Guide
 
-This document can be read at `xxx.readthedocs.io <http://xxx.readthedocs.io/>`_.
+This document can be read at http://linuxmint-installation-guide.readthedocs.io.
 
 The docs are written in `reStructuredText <http://www.sphinx-doc.org/rest.html>`_.
 
