@@ -1,4 +1,4 @@
-Multimedia Codecs
+Multimedia codecs
 =================
 
 Some multimedia content requires additional codecs to be installed.

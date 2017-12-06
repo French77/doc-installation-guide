@@ -3,7 +3,7 @@ Boot options
 
 Some graphics cards and motherboards don't work well with the open-source drivers present in Linux Mint by default.
 
-Compatibility Mode
+Compatibility mode
 ------------------
 
 The easiest option is to select the ``compatibility mode`` option from the USB stick (or DVD) boot menu.

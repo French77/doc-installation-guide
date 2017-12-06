@@ -1,4 +1,4 @@
-Hardware Drivers
+Hardware drivers
 ================
 
 One of the first things to do after installing Linux Mint is to check for available hardware drivers.

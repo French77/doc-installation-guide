@@ -1,18 +1,18 @@
 Install Linux Mint
 ==================
 
-Booting the Live Session
-------------------------
+The live session
+----------------
 
-After you boot the computer from the USB stick (or DVD), Linux Mint should start a ``Live Session``, i.e. log you in automatically as a user called ``mint`` and show you a desktop with the installer on it:
+After you boot the computer from the USB stick (or DVD), Linux Mint should start a ``live session``, i.e. log you in automatically as a user called ``mint`` and show you a desktop with the installer on it:
 
 .. figure:: images/cinnamon.png
     :width: 500px
     :align: center
 
-    The Linux Mint Live Session
+    The Linux Mint live session
 
-The ``Live Session`` is very similar to a normal session (i.e. to what Linux Mint is like once it is permanently installed on the computer), but with the following exceptions:
+The ``live session`` is very similar to a normal session (i.e. to what Linux Mint is like once it is permanently installed on the computer), but with the following exceptions:
 
 * The Live session is usually much slower (it runs in memory and from a USB stick or DVD, which are usually much slower than typical SSD/HDD drives)
 * Changes you make in the live session are not permanent, they only affect the present session. These changes are not written to the USB stick (or DVD) and they do not impact the system installed by the installer.

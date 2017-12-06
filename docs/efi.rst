@@ -16,7 +16,7 @@ If after installing Linux Mint in EFI mode, you are unable to boot due to a ``Se
 
 * Go in the ``BIOS`` settings and disable ``Secureboot``.
 
-EFI Boot Order
+EFI boot order
 --------------
 
 If after installing Linux Mint in EFI mode, your computer skips the boot menu and boots straight into Windows (or another operating system), you probably have an issue with the boot order.

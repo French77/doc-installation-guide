@@ -1,4 +1,4 @@
-System Snapshots
+System snapshots
 ================
 
 Before you start using your operating system, we recommend you set up system snapshots. That way if anything goes wrong, you can simply restore your system from an earlier backup.
