@@ -61,7 +61,7 @@ If another operating system is present on the computer, the installer shows you 
 
 .. note::
 
-    If you want to manage the partitions or specify which partitions to use, select the :guilabel:`Something else` option.
+    If you want to manage the partitions or specify which partitions to use, select :guilabel:`Something else`.
 
     .. figure:: images/installer-partitions.png
         :width: 500px

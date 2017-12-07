@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Linux Mint Installation Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-07 12:21+0000\n"
+"POT-Creation-Date: 2017-12-07 13:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,8 +32,8 @@ msgstr ""
 
 #: ../../boot_options.rst:9
 msgid ""
-"The easiest option is to select the ``compatibility mode`` option from the "
-"USB stick (or DVD) boot menu."
+"The easiest option is to select ``compatibility mode`` from the USB stick "
+"(or DVD) boot menu."
 msgstr ""
 
 #: ../../boot_options.rst:15
@@ -798,7 +798,7 @@ msgstr ""
 #: ../../install.rst:64
 msgid ""
 "If you want to manage the partitions or specify which partitions to use, "
-"select the :guilabel:`Something else` option."
+"select :guilabel:`Something else`."
 msgstr ""
 
 #: ../../install.rst:70
@@ -995,9 +995,7 @@ msgid "Pre-installing Linux Mint (OEM Installation)"
 msgstr ""
 
 #: ../../oem.rst:4
-msgid ""
-"The ``OEM install`` option in the ISO boot menu is used to preinstall Linux "
-"Mint."
+msgid "In the ISO boot menu, ``OEM install`` is used to preinstall Linux Mint."
 msgstr ""
 
 #: ../../oem.rst:6

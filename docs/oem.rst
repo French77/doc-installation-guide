@@ -1,7 +1,7 @@
 Pre-installing Linux Mint (OEM Installation)
 ============================================
 
-The ``OEM install`` option in the ISO boot menu is used to preinstall Linux Mint.
+In the ISO boot menu, ``OEM install`` is used to preinstall Linux Mint.
 
 This option is useful to:
 

@@ -6,7 +6,7 @@ Some graphics cards and motherboards don't work well with the open-source driver
 Compatibility mode
 ------------------
 
-The easiest option is to select the ``compatibility mode`` option from the USB stick (or DVD) boot menu.
+The easiest option is to select ``compatibility mode`` from the USB stick (or DVD) boot menu.
 
 .. figure:: images/efi-compatibility.png
     :width: 500px
