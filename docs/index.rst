@@ -1,6 +1,10 @@
 Linux Mint Installation Guide
 =============================
 
+.. figure:: images/qr.png
+      :width: 100px
+      :align: right
+
 Linux Mint comes in the form of an ISO image (an .iso file) which can be used to make a bootable DVD or a bootable USB stick.
 
 This guide will help you download the right ISO image, create your bootable media and install Linux Mint on your computer.
@@ -49,3 +53,4 @@ This guide will help you download the right ISO image, create your bootable medi
    partitioning
    oem
    help
+
