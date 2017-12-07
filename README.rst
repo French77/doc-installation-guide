@@ -19,3 +19,5 @@ Resources:
 
 * https://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html
 * http://www.sphinx-doc.org/en/stable/markup/inline.html
+* http://www.writethedocs.org/guide/
+* https://developers.google.com/style/highlights

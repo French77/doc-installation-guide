@@ -52,14 +52,12 @@ If you still cannot boot try one of the following solutions:
 * Try ``nouveau.noaccel=1`` instead of ``nomodeset``.
 * After the installation, use :menuselection:`Advanced Options --> Recovery mode` from the boot menu and choose ``resume``.
 
-Booting an older kernel
------------------------
+Install an older release
+------------------------
 
-If your computer has issues with the kernel used by a particular Linux Mint release, an easy option is to install a previous release from the same Linux Mint series instead.
+If your computer has compatibility issues with the latest Linux Mint release, install a previous release from the same Linux Mint series.
 
-For instance, Linux Mint 18.3 comes with a 4.10 kernel but Linux Mint 18 comes with a 4.4 kernel.
-
-It is very easy to upgrade Linux Mint to newer releases, so if for some reasons your hardware doesn't agree with the newest kernel, download and install the first release in the series (i.e. Linux Mint 18 instead of 18.3) and upgrade to the latest release post-installation.
+For instance, if you can't install Linux Mint 18.3 (which comes with a 4.10 kernel), install Linux Mint 18 (which comes with a 4.4 kernel) and upgrade to 18.3.
 
 .. note::
-    The first release in each series uses an LTS (Long Term Support) kernel. Upgrading from this release to the latest one in the series does not change the Linux kernel.
+    The first release in each series uses an LTS (Long Term Support) kernel. Upgrading from this release to the latest one in the series does not change your kernel.

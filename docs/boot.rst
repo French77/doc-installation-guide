@@ -1,11 +1,11 @@
 Boot Linux Mint
 ===============
 
-Now that you have Linux Mint on a USB stick (or DVD) let's boot the computer from it.
+Now that you have Linux Mint on a USB stick (or DVD) boot the computer from it.
 
 1. Insert your USB stick (or DVD) into the computer.
 
-2. Restart the computer
+2. Restart the computer.
 
 3. Before your computer boots your current operating system (Windows, Mac, Linux) you should see your `BIOS <https://en.wikipedia.org/wiki/BIOS>`_ loading screen. Check the screen or your computer's documentation to know which key to press and instruct your computer to boot on USB (or DVD).
 

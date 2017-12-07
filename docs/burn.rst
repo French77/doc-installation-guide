@@ -1,27 +1,25 @@
 Create the bootable media
 =========================
 
-The easiest way to install Linux Mint is with a bootable USB stick.
+The easiest way to install Linux Mint is with a USB stick.
 
-Alternatively, if you do not have a spare USB stick or if your computer cannot boot from USB, you can create a bootable DVD.
+If you cannot boot from USB, you can use a blank DVD.
 
 How to make a bootable USB stick
 --------------------------------
 
-Using Linux Mint
-````````````````
+In Linux Mint
+`````````````
 
-In Linux Mint, right-click the ISO file and select :menuselection:`Make Bootable USB Stick`, or launch the :menuselection:`USB Image Writer` from the application menu.
+Right-click the ISO file and select :menuselection:`Make Bootable USB Stick`, or launch :menuselection:`Menu -> Accessories -> USB Image Writer`.
 
 .. figure:: images/mintstick.png
     :width: 500px
     :align: center
 
-    Using the USB Image Writer in Linux Mint
+Select your USB device and click :guilabel:`Write`.
 
-Select your USB device and press the :guilabel:`Write` button.
-
-Using Windows, Mac, or other Linux distributions
+In Windows, Mac OS, or other Linux distributions
 ````````````````````````````````````````````````
 
 Download `Etcher <https://etcher.io/>`_, install it and run it.
@@ -32,11 +30,11 @@ Download `Etcher <https://etcher.io/>`_, install it and run it.
 
     Using Etcher
 
-Press the :guilabel:`Select image` button and select your ISO file.
+Click :guilabel:`Select image` and select your ISO file.
 
-Press the :guilabel:`Select drive` button and select your USB stick.
+Click :guilabel:`Select drive` and select your USB stick.
 
-Press the :guilabel:`Flash!` button.
+Click :guilabel:`Flash!`.
 
 
 How to make a bootable DVD
@@ -44,22 +42,22 @@ How to make a bootable DVD
 
 Optical discs are slow and burning to disc is prone to errors.
 
-.. warning::
-	Make sure to burn at the lowest possible speed to prevent issues.
+.. note::
+	To prevent issues, burn at the lowest possible speed.
 
 .. warning::
-	Make sure to burn the ISO onto the DVD, and not into the DVD. When finished, you shouldn't obtain a DVD which contains a single .iso file, but a DVD which contains all the files present within the ISO image (``boot/``, ``casper/``, etc..).
+	Burn the content of the ISO onto the DVD, not the ISO file itself. When finished, your DVD should contain directories such as ``boot`` and ``casper``, it shouldn't be an empty DVD containing an .iso file.
 
-Using Linux
-```````````
-In Linux, install and use ``xfburn``.
+In Linux
+````````
+Install and use ``xfburn``.
 
-Using Windows
-`````````````
-In Windows, right-click the ISO file and select :menuselection:`Burn disk image`.
+In Windows
+``````````
+Right-click the ISO file and select :menuselection:`Burn disk image`.
 
-Select :menuselection:`Verify disc after burning` to make sure the ISO was burned without any errors.
+To make sure the ISO was burned without any errors, select :menuselection:`Verify disc after burning`.
 
-Using Mac
+In Mac OS
 `````````
-In Mac OS, right-click the ISO file and select :menuselection:`Burn Disk Image to Disc`.
+Right-click the ISO file and select :menuselection:`Burn Disk Image to Disc`.

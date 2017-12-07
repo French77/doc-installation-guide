@@ -4,21 +4,21 @@ Partitioning
 Device and partition names
 --------------------------
 
-The Linux naming scheme for devices and partitions is simple but it can be confusing to novice users. If you are not familiar with it, please click `here <https://www.debian.org/releases/wheezy/amd64/apcs04.html.en>`_.
+If you are not familiar with the Linux naming scheme for devices and partitions, read `Device Names in Linux <https://www.debian.org/releases/wheezy/amd64/apcs04.html.en>`_.
 
 Filesystem and mount points
 ---------------------------
 
-If you are not familiar with the Linux filesystem and the concept of mount points, please click `here <http://etutorials.org/Linux+systems/red+hat+linux+9+professional+secrets/Part+II+Exploring+Red+Hat+Linux/Chapter+7+Red+Hat+Linux+Basics/Understanding+the+Linux+File+System/>`_.
+If you are not familiar with the Linux filesystem and the concept of mount points, read `Understanding the Linux File System <http://etutorials.org/Linux+systems/red+hat+linux+9+professional+secrets/Part+II+Exploring+Red+Hat+Linux/Chapter+7+Red+Hat+Linux+Basics/Understanding+the+Linux+File+System/>`_.
 
 Dedicated /home partition
 -------------------------
 
 In Linux, the ``/home`` directory is used to store user data and preferences.
 
-This directory usually contains one subdirectoy for each user account. So if your username is ``john``, your home directory is likely to be ``/home/john``, your downloads are likely to be in ``/home/john/Downloads``, your documents in ``/home/john/Documents``, your Firefox bookmarks somewhere in ``/home/john/.mozilla`` and so on...
+This directory contains one subdirectoy for each user account. Say your username is ``john``, your home directory is ``/home/john``, your downloads are in ``/home/john/Downloads``, your documents in ``/home/john/Documents``, your Firefox bookmarks somewhere in ``/home/john/.mozilla`` and so on...
 
-By placing ``/home`` on its own dedicated partition, you separate the user data from the rest of the operating system.
+By giving ``/home`` its own dedicated partition, you separate the user data from the rest of the operating system.
 
 The advantage is that you can wipe the operating system and replace it without affecting the user data.
 
@@ -32,4 +32,4 @@ When installing Linux Mint:
     This is not recommended for novice users. A misstep during the installation could wipe all your data. Always make backups, make sure to select the right partitions and to carefully review formatting options.
 
 .. note::
-    A Linux Mint operating system roughly takes 15GB. Account for additional software and give it 50GB if you can spare the size. Keep most of your free space for your home partition, since your downloads, videos, pictures and user data is what will take the biggest amount of space.
+    A Linux Mint operating system takes about 15GB and grows as you install additional software. If you can spare the size, give it 100GB. Keep most of your free space for the home partition. User data (downloads, videos, pictures) takes a lot more space.

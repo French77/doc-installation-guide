@@ -1,9 +1,9 @@
 Choose the right edition
 ========================
 
-You can download Linux Mint from https://linuxmint.com/download.php.
+You can download Linux Mint from the `Linux Mint website <https://linuxmint.com/download.php>`_.
 
-Read below to help you choose which edition and architecture are right for you.
+Read below to choose which edition and architecture are right for you.
 
 Cinnamon, MATE or Xfce?
 -----------------------
@@ -43,28 +43,26 @@ Xfce is a lightweight desktop environment. It doesn't support as many features a
 
     Xfce
 
-Of course, all three desktops are great and Linux Mint is extremely proud of each edition. Although there are more features and better support in some editions than others, and some do run faster and use less resources than others, they're all great alternatives and choosing the right edition for you is largely a matter of taste.
+Of course, all three desktops are great and Linux Mint is extremely proud of each edition. Although there are more features and better support in some editions than others, and some do run faster and use less resources than others, they're all great alternatives and choosing the right edition is largely a matter of taste.
 
 Other than their features and performance, Cinnamon, MATE and Xfce also represent three different desktop environments, with different menus, different panels and configuration tools. The right one for you is the one where you feel at home.
 
-If you are unsure which desktop to choose, we recommend you start with the Cinnamon edition. Try them all eventually when you have the time. All three of them have their own audience within the Linux Mint community and they're all very popular.
+If you are unsure which desktop to choose start with the Cinnamon edition. Try them all eventually when you have the time. All three of them have their own audience within the Linux Mint community and they're all very popular.
 
 
 32-bit or 64-bit?
 -----------------
 
-We encourage everyone to run Linux Mint in 64-bit.
+64-bit is recommended.
 
 The 32-bit ISO images are provided for compatibility with older computers. 32-bit processors are extremely rare nowadays and most computers are able to run in 64-bit. If your computer was manufactured after 2007, you probably have a 64-bit processor.
 
-If you have an old computer and you are unsure whether or not it can run in 64-bit, please check the following link:
-
-https://en.wikipedia.org/wiki/X86#Chronology
+If you have an old computer and you are unsure whether or not it can run in 64-bit, read `X86 Chronology <https://en.wikipedia.org/wiki/X86#Chronology>`_.
 
 .. tip::
-    You can try to boot Linux Mint 64-bit on your computer. If it isn't compatible, nothing bad will happen. You will simply get an error message.
+    You can try to boot Linux Mint 64-bit on your computer. If it isn't compatible, nothing bad will happen. You will just get an error message.
 
 .. note::
-    Because 64-bit processors can run both in 64-bit and in 32-bit, it is possible to run Linux Mint 32-bit on a 64-bit processor. However this is not recommended, as it will limit the amount of detected RAM to a maximum of 4GB and it can have a negative impact on the performance of your operating system.
+    Don't run Linux Mint 32-bit on a 64-bit processor. Although it works, it limits the amount of detected RAM to a maximum of 4GB and it can have a negative impact on the performance of the operating system.
 
 

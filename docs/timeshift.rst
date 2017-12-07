@@ -1,11 +1,11 @@
 System snapshots
 ================
 
-Before you start using your operating system, we recommend you set up system snapshots. That way if anything goes wrong, you can simply restore your system from an earlier backup.
+Before you start using your operating system, set up system snapshots. Then if anything goes wrong, you can restore your system from an earlier backup.
 
-1. To set up system snapshots, launch :menuselection:`Menu --> Administration --> Timeshift`.
+1. Launch :menuselection:`Menu --> Administration --> Timeshift`.
 
-2. Select ``RSYNC`` (unless you chose ``btrfs`` instead of ``ext4`` for your filesystem during the installation) and click :guilabel:`Next`.
+2. Select ``RSYNC`` and click :guilabel:`Next`.
 
 .. figure:: images/timeshift-1.png
     :align: center
@@ -16,7 +16,7 @@ Before you start using your operating system, we recommend you set up system sna
     :align: center
 
 .. note::
-    This does not format the select device. No data is lost during this step. System snapshots are saved into a newly created ``timeshift`` directory on the root of the selected device.
+    The selected device is not formatted and no data is lost. System snapshots are saved into a newly created ``timeshift`` directory on the root of the selected device.
 
 4. Select when system snapshots are saved.
 
@@ -27,7 +27,7 @@ Before you start using your operating system, we recommend you set up system sna
     System snapshots are incremental so although the first snapshot takes a significant amount of spaces, new snapshots only take additional space for files which have changed.
 
 .. note::
-    Although ``boot`` snapshots are performed during the boot, they happen in the background and with a delay. They do not impact the speed of the boot sequence.
+    ``Boot`` snapshots are performed in the background and do not impact the speed of the boot sequence.
 
 5. Click :guilabel:`Finish`.
 
