@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Linux Mint Installation Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-08 10:51+0000\n"
+"POT-Creation-Date: 2017-12-08 17:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -410,13 +410,6 @@ msgstr ""
 msgid ""
 "You can try to boot Linux Mint 64-bit on your computer. If it isn't "
 "compatible, nothing bad will happen. You will just get an error message."
-msgstr ""
-
-#: ../../choose.rst:66
-msgid ""
-"Don't run Linux Mint 32-bit on a 64-bit processor. Although it works, it "
-"limits the amount of detected RAM to a maximum of 4GB and it can have a "
-"negative impact on the performance of the operating system."
 msgstr ""
 
 #: ../../codecs.rst:2
@@ -1064,39 +1057,44 @@ msgid "Partitioning"
 msgstr ""
 
 #: ../../partitioning.rst:5
-msgid "Device and partition names"
+msgid "Disks and partitions under Linux"
 msgstr ""
 
 #: ../../partitioning.rst:7
 msgid ""
 "If you are not familiar with the Linux naming scheme for devices and "
-"partitions, read `Device Names in Linux <https://www.debian.org/releases/"
-"wheezy/amd64/apcs04.html.en>`_."
+"partitions, or the concept of filesystems and mount points, read:"
+msgstr ""
+
+#: ../../partitioning.rst:9
+msgid ""
+"`A beginner’s guide to disks and disk partitions in Linux <http://linuxbsdos."
+"com/2014/11/08/a-beginners-guide-to-disks-and-disk-partitions-in-linux/>`_"
 msgstr ""
 
 #: ../../partitioning.rst:10
-msgid "Filesystem and mount points"
-msgstr ""
-
-#: ../../partitioning.rst:12
 msgid ""
-"If you are not familiar with the Linux filesystem and the concept of mount "
-"points, read `Understanding the Linux File System <http://etutorials.org/"
-"Linux+systems/red+hat+linux+9+professional+secrets/Part+II+Exploring+Red+Hat"
-"+Linux/Chapter+7+Red+Hat+Linux+Basics/Understanding+the+Linux+File+System/"
-">`_."
+"`Device Names in Linux <https://www.debian.org/releases/wheezy/amd64/apcs04."
+"html.en>`_"
 msgstr ""
 
-#: ../../partitioning.rst:15
+#: ../../partitioning.rst:11
+msgid ""
+"`Understanding the Linux File System <http://etutorials.org/Linux+systems/red"
+"+hat+linux+9+professional+secrets/Part+II+Exploring+Red+Hat+Linux/Chapter"
+"+7+Red+Hat+Linux+Basics/Understanding+the+Linux+File+System/>`_"
+msgstr ""
+
+#: ../../partitioning.rst:14
 msgid "Dedicated /home partition"
 msgstr ""
 
-#: ../../partitioning.rst:17
+#: ../../partitioning.rst:16
 msgid ""
 "In Linux, the ``/home`` directory is used to store user data and preferences."
 msgstr ""
 
-#: ../../partitioning.rst:19
+#: ../../partitioning.rst:18
 msgid ""
 "This directory contains one subdirectoy for each user account. Say your "
 "username is ``john``, your home directory is ``/home/john``, your downloads "
@@ -1104,43 +1102,43 @@ msgid ""
 "your Firefox bookmarks somewhere in ``/home/john/.mozilla`` and so on..."
 msgstr ""
 
-#: ../../partitioning.rst:21
+#: ../../partitioning.rst:20
 msgid ""
 "By giving ``/home`` its own dedicated partition, you separate the user data "
 "from the rest of the operating system."
 msgstr ""
 
-#: ../../partitioning.rst:23
+#: ../../partitioning.rst:22
 msgid ""
 "The advantage is that you can wipe the operating system and replace it "
 "without affecting the user data."
 msgstr ""
 
-#: ../../partitioning.rst:25
+#: ../../partitioning.rst:24
 msgid "When installing Linux Mint:"
 msgstr ""
 
-#: ../../partitioning.rst:27
+#: ../../partitioning.rst:26
 msgid ""
 "Assign the ``/`` mount point to the partition dedicated to the operating "
 "system, and tell the installer to format it."
 msgstr ""
 
-#: ../../partitioning.rst:29
+#: ../../partitioning.rst:28
 msgid ""
 "Assign the ``/home`` mount point to the partition dedicated to the user "
 "data, and if it contains user data already, make sure to tell the installer "
 "**not to format it**."
 msgstr ""
 
-#: ../../partitioning.rst:32
+#: ../../partitioning.rst:31
 msgid ""
 "This is not recommended for novice users. A misstep during the installation "
 "could wipe all your data. Always make backups, make sure to select the right "
 "partitions and to carefully review formatting options."
 msgstr ""
 
-#: ../../partitioning.rst:35
+#: ../../partitioning.rst:34
 msgid ""
 "A Linux Mint operating system takes about 15GB and grows as you install "
 "additional software. If you can spare the size, give it 100GB. Keep most of "
