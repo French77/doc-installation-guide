@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Linux Mint Installation Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-07 13:41+0000\n"
+"POT-Creation-Date: 2017-12-08 09:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -160,7 +160,7 @@ msgstr ""
 
 #: ../../boot.rst:16
 msgid ""
-"On Macs, key your finger pressed on the :kbd:`Alt` or :kbd:`Option` key "
+"On Macs, keep your finger pressed on the :kbd:`Alt` or :kbd:`Option` key "
 "after hearing the boot sound."
 msgstr ""
 
