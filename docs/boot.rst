@@ -13,7 +13,7 @@ Now that you have Linux Mint on a USB stick (or DVD) boot the computer from it.
 	Most BIOS have a special key you can press to select the boot device and all of them have a special key to enter the BIOS configuration screen (from which you can define the boot order). Depending on the BIOS, these special keys can be :kbd:`Escape`, :kbd:`F1`, :kbd:`F2`, :kbd:`F8`, :kbd:`F10`, :kbd:`F11`, :kbd:`F12`, or :kbd:`Delete`. That information is usually briefly written on the screen during the boot sequence.
 
 .. hint::
-	On Macs, key your finger pressed on the :kbd:`Alt` or :kbd:`Option` key after hearing the boot sound.
+	On Macs, keep your finger pressed on the :kbd:`Alt` or :kbd:`Option` key after hearing the boot sound.
 
 4. The Linux Mint ISO can be booted both in EFI or BIOS mode. In EFI mode it shows a grub menu. In BIOS mode it shows an isolinux menu.
 
