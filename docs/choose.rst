@@ -62,7 +62,3 @@ If you have an old computer and you are unsure whether or not it can run in 64-b
 .. tip::
     You can try to boot Linux Mint 64-bit on your computer. If it isn't compatible, nothing bad will happen. You will just get an error message.
 
-.. note::
-    Don't run Linux Mint 32-bit on a 64-bit processor. Although it works, it limits the amount of detected RAM to a maximum of 4GB and it can have a negative impact on the performance of the operating system.
-
-
