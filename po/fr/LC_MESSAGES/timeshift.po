@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Linux Mint Installation Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-08 10:51+0000\n"
-"PO-Revision-Date: 2017-12-08 11:04+0000\n"
+"POT-Creation-Date: 2017-12-08 17:12+0000\n"
+"PO-Revision-Date: 2017-12-08 17:45+0000\n"
 "Last-Translator: Clement Lefebvre <root@linuxmint.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-12-08 11:19+0000\n"
+"X-Launchpad-Export-Date: 2017-12-09 14:00+0000\n"
 "X-Generator: Launchpad (build 18511)\n"
 "Language: fr\n"
 
@@ -521,16 +521,6 @@ msgstr ""
 "Vous pouvez essayer de démarrer Linux Mint 64-bit sur votre ordinateur. S'il "
 "n'est pas compatible, rien de grave ne se produira. Vous verrez juste un "
 "message d'erreur."
-
-#: ../../choose.rst:66
-msgid ""
-"Don't run Linux Mint 32-bit on a 64-bit processor. Although it works, it "
-"limits the amount of detected RAM to a maximum of 4GB and it can have a "
-"negative impact on the performance of the operating system."
-msgstr ""
-"N'utilisez pas Linux Mint 32-bit avec un processeur 64-bit. Bien que cela "
-"fonctionne, la mémoire RAM détectée sera limitée à 4Go et cela peut avoir "
-"des conséquences négatives sur les performances du système d'exploitation."
 
 #: ../../codecs.rst:2
 msgid "Multimedia codecs"
@@ -1366,47 +1356,60 @@ msgid "Partitioning"
 msgstr "Partitionnement"
 
 #: ../../partitioning.rst:5
-msgid "Device and partition names"
-msgstr "Nom des périphériques et des partitions"
+msgid "Disks and partitions under Linux"
+msgstr "Disques et partitions sous Linux"
 
 #: ../../partitioning.rst:7
 msgid ""
 "If you are not familiar with the Linux naming scheme for devices and "
-"partitions, read `Device Names in Linux "
-"<https://www.debian.org/releases/wheezy/amd64/apcs04.html.en>`_."
+"partitions, or the concept of filesystems and mount points, read:"
 msgstr ""
 "Si vous ne connaissez pas la méthode de nommage des partitions et "
-"périphériques sous Linux, lisez `Noms des périphériques sous Linux "
-"<https://www.debian.org/releases/wheezy/amd64/apcs04.html.fr>`_."
+"périphériques sous Linux, ou les concepts de systèmes de fichiers et points "
+"de montage, lisez :"
+
+#: ../../partitioning.rst:9
+msgid ""
+"`A beginner’s guide to disks and disk partitions in Linux "
+"<http://linuxbsdos.com/2014/11/08/a-beginners-guide-to-disks-and-disk-"
+"partitions-in-linux/>`_"
+msgstr ""
+"`A beginner’s guide to disks and disk partitions in Linux "
+"<http://linuxbsdos.com/2014/11/08/a-beginners-guide-to-disks-and-disk-"
+"partitions-in-linux/>`_"
 
 #: ../../partitioning.rst:10
-msgid "Filesystem and mount points"
-msgstr "Systèmes de fichiers et points de montage"
-
-#: ../../partitioning.rst:12
 msgid ""
-"If you are not familiar with the Linux filesystem and the concept of mount "
-"points, read `Understanding the Linux File System "
+"`Device Names in Linux "
+"<https://www.debian.org/releases/wheezy/amd64/apcs04.html.en>`_"
+msgstr ""
+"`Noms des périphériques sous Linux "
+"<https://www.debian.org/releases/wheezy/amd64/apcs04.html.fr>`_"
+
+#: ../../partitioning.rst:11
+msgid ""
+"`Understanding the Linux File System "
 "<http://etutorials.org/Linux+systems/red+hat+linux+9+professional+secrets/Par"
 "t+II+Exploring+Red+Hat+Linux/Chapter+7+Red+Hat+Linux+Basics/Understanding+the"
-"+Linux+File+System/>`_."
+"+Linux+File+System/>`_"
 msgstr ""
-"Si vous ne connaissez pas les concepts de systèmes de fichiers et points de "
-"montages, lisez `Point de montage "
-"<https://fr.wikipedia.org/wiki/Point_de_montage>`_."
+"`Understanding the Linux File System "
+"<http://etutorials.org/Linux+systems/red+hat+linux+9+professional+secrets/Par"
+"t+II+Exploring+Red+Hat+Linux/Chapter+7+Red+Hat+Linux+Basics/Understanding+the"
+"+Linux+File+System/>`_"
 
-#: ../../partitioning.rst:15
+#: ../../partitioning.rst:14
 msgid "Dedicated /home partition"
 msgstr "Partition /home dédiée"
 
-#: ../../partitioning.rst:17
+#: ../../partitioning.rst:16
 msgid ""
 "In Linux, the ``/home`` directory is used to store user data and preferences."
 msgstr ""
 "Sous Linux, le répertoire ``/home`` est utilisé pour les données des "
 "utilisateurs."
 
-#: ../../partitioning.rst:19
+#: ../../partitioning.rst:18
 msgid ""
 "This directory contains one subdirectoy for each user account. Say your "
 "username is ``john``, your home directory is ``/home/john``, your downloads "
@@ -1419,7 +1422,7 @@ msgstr ""
 "dans ``/home/john/Documents``, et vos favoris Firefox quelque part dans "
 "``/home/john/.mozilla`` etc..."
 
-#: ../../partitioning.rst:21
+#: ../../partitioning.rst:20
 msgid ""
 "By giving ``/home`` its own dedicated partition, you separate the user data "
 "from the rest of the operating system."
@@ -1427,7 +1430,7 @@ msgstr ""
 "En plaçant ``/home`` sur une partition dédiée, vous séparez les données des "
 "utilisateurs du reste du système d'exploitation."
 
-#: ../../partitioning.rst:23
+#: ../../partitioning.rst:22
 msgid ""
 "The advantage is that you can wipe the operating system and replace it "
 "without affecting the user data."
@@ -1435,11 +1438,11 @@ msgstr ""
 "Cela présente l'avantage de pouvoir écraser le système d'exploitation et de "
 "le remplacer sans que cela n'affecte les données des utilisateurs."
 
-#: ../../partitioning.rst:25
+#: ../../partitioning.rst:24
 msgid "When installing Linux Mint:"
 msgstr "Pendant l'installation de Linux Mint :"
 
-#: ../../partitioning.rst:27
+#: ../../partitioning.rst:26
 msgid ""
 "Assign the ``/`` mount point to the partition dedicated to the operating "
 "system, and tell the installer to format it."
@@ -1447,7 +1450,7 @@ msgstr ""
 "Assignez au point de montage ``/`` la partition dédiée au système "
 "d'exploitation et demandez à l'installeur de la formater."
 
-#: ../../partitioning.rst:29
+#: ../../partitioning.rst:28
 msgid ""
 "Assign the ``/home`` mount point to the partition dedicated to the user "
 "data, and if it contains user data already, make sure to tell the installer "
@@ -1456,7 +1459,7 @@ msgstr ""
 "Assignez au point de montage ``/home`` la partition dédiée aux données des "
 "utilisateurs et demandez à l'installeur de **ne pas la formater**."
 
-#: ../../partitioning.rst:32
+#: ../../partitioning.rst:31
 msgid ""
 "This is not recommended for novice users. A misstep during the installation "
 "could wipe all your data. Always make backups, make sure to select the right "
@@ -1467,7 +1470,7 @@ msgstr ""
 "une sauvegarde, vérifiez que vous sélectionnez les bonnes partitions et "
 "options de formatage."
 
-#: ../../partitioning.rst:35
+#: ../../partitioning.rst:34
 msgid ""
 "A Linux Mint operating system takes about 15GB and grows as you install "
 "additional software. If you can spare the size, give it 100GB. Keep most of "
@@ -1719,10 +1722,3 @@ msgstr ""
 "Pour plus d'informations sur la vérification d'ISO, ou pour vérifier des "
 "versions BETA, LMDE ou plus anciennes, lisez `How to Verify ISO images "
 "<https://linuxmint.com/verify.php>`_."
-
-#~ msgid ""
-#~ "On Macs, key your finger pressed on the :kbd:`Alt` or :kbd:`Option` key "
-#~ "after hearing the boot sound."
-#~ msgstr ""
-#~ "Sur les Macs, laissez le doigt appuyé sur :kbd:`Alt` ou :kbd:`Option`après "
-#~ "avoir entendu le son de démarrage."
