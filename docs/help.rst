@@ -7,6 +7,7 @@ The forums
 ----------
 
 The best place to find help is on the `Linux Mint Forums <https://forums.linuxmint.com>`_.
+or to get help in your own language try one of the `Local Communities <https://www.linuxmint.com/links.php>`_.
 
 .. hint::
     Search the forums before asking, in case someone else already asked the same question.
