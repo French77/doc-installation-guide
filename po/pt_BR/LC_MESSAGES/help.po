@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2017-12-08 17:12+0000\n"
-"PO-Revision-Date: 2017-12-09 13:48+0000\n"
-"Last-Translator: Clement Lefebvre <root@linuxmint.com>\n"
+"PO-Revision-Date: 2017-12-09 20:51+0000\n"
+"Last-Translator: Sitonir de Oliveira <sitonir@outlook.com>\n"
 "Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-12-09 14:00+0000\n"
+"X-Launchpad-Export-Date: 2017-12-11 15:40+0000\n"
 "X-Generator: Launchpad (build 18511)\n"
 
 #: ../../boot_options.rst:2
@@ -331,15 +331,15 @@ msgstr "No Windows"
 msgid "Right-click the ISO file and select :menuselection:`Burn disk image`."
 msgstr ""
 "Clique com o botão direito no arquivo ISO e selecione :menuselection:`Gravar "
-"imagem em disco`."
+"imagem do disco`."
 
 #: ../../burn.rst:59
 msgid ""
 "To make sure the ISO was burned without any errors, select "
 ":menuselection:`Verify disc after burning`."
 msgstr ""
-"Para ter certeza de que o arquivo ISO foi grava sem erros, selecione "
-":menuselection:`Verificar disco após a gravação`."
+"Para ter certeza de que o arquivo ISO foi gravado sem erros, selecione "
+":menuselection:`Verificar disco após gravar`."
 
 #: ../../burn.rst:62
 msgid "In Mac OS"
@@ -350,7 +350,7 @@ msgid ""
 "Right-click the ISO file and select :menuselection:`Burn Disk Image to Disc`."
 msgstr ""
 "Clique com o botão direito no arquivo ISO e selecione :menuselection:`Gravar "
-"imagem em um disco`."
+"imagem de disco [nome do disco] no disco`."
 
 #: ../../choose.rst:2
 msgid "Choose the right edition"
@@ -449,10 +449,10 @@ msgid ""
 "largely a matter of taste."
 msgstr ""
 "Claro, todos os três ambientes de trabalho são ótimos e o Linux Mint tem um "
-"extremo orgulho de cada edição. Embora existam mais recursos e melhor "
-"suporte em algumas edições do que outras, e algumas rodam mais rápido e usam "
-"menos recursos do que outras, são ótimas alternativas, e escolher a edição "
-"certa é em grande parte uma questão de gosto."
+"extremo orgulho de cada uma delas. Embora existam mais recursos e melhor "
+"suporte em algumas edições do que em outras, e algumas rodam mais rápido e "
+"usam menos recursos do que outras, todas elas são ótimas alternativas, e "
+"escolher a edição certa é em grande parte uma questão de gosto."
 
 #: ../../choose.rst:48
 msgid ""
@@ -506,7 +506,7 @@ msgid ""
 msgstr ""
 "Se você tem um computador antigo e não tem certeza se ele pode ou não "
 "funcionar em 64 bits, leia `Cronologia do X86 "
-"<https://pt.wikipedia.org/wiki/X86#Cronologia>` _"
+"<https://pt.wikipedia.org/wiki/X86#Cronologia>`_"
 
 #: ../../choose.rst:63
 msgid ""
@@ -800,12 +800,12 @@ msgid ""
 "frustrating to you, but also to others who later see your question and are "
 "unable to reply because you already left."
 msgstr ""
-"Muitas pessoas se conectam à sala de chat, mas somente dão uma olhada de vez "
-"em quando. Seja paciente ao fazer uma pergunta. Não a repita e fique "
-"conectado até receber uma resposta. As vezes, pode levar algumas horas para "
-"alguém vê-la e te responder. Não desista após alguns minutos. Pode ser "
-"frustrante para você, mas também pode ser para outros que verão sua pergunta "
-"e não poderão responder pois você saiu."
+"Muitas pessoas se conectam a sala de chat, e a maioria dão uma olhada de vez "
+"em quando. Seja paciente ao perguntar. Não fique repetindo a mesma pergunta "
+"e se mantenha conectado até receber uma resposta. As vezes, pode levar "
+"algumas horas para alguém a veja e responda. Não desista depois de alguns "
+"minutos. Pode ser frustrante para você, mas também pode ser para outros que "
+"verão sua pergunta e não poderão responder porque você saiu."
 
 #: ../../help.rst:27
 msgid ""
@@ -815,8 +815,8 @@ msgid ""
 msgstr ""
 "Se você está usando o Hexchat, você pode minimizá-lo para a bandeja do "
 "sistema clicando em seu ícone de status. As pessoas geralmente mencionam seu "
-"apelido ao responderem a você. Quando o fizerem, o ícone de status do "
-"Hexchat piscará para chamar sua atenção."
+"nickname (apelido no chat) ao responder. Quando isso acontecer, o ícone de "
+"status do Hexchat piscará para chamar sua atenção."
 
 #: ../../help.rst:30
 msgid "Community resources"
@@ -827,8 +827,8 @@ msgid ""
 "The `tutorials section <https://community.linuxmint.com/tutorial/search>`_ "
 "is useful to find tutorials about Linux Mint."
 msgstr ""
-"A seção `tutorial <https://community.linuxmint.com/tutorial/search>`_ é útil "
-"para encontrar tutoriais sobre o Linux Mint."
+"A seção `tutorial <https://community.linuxmint.com/tutorial/search>`_ (em "
+"inglês) é útil para encontrar tutoriais sobre o Linux Mint."
 
 #: ../../help.rst:34
 msgid ""
@@ -836,8 +836,8 @@ msgid ""
 "is useful to find compatible hardware."
 msgstr ""
 "O `banco de dados de hardware "
-"<https://community.linuxmint.com/hardware/search>`_ é útil para encontrar "
-"qual hardware é compatível."
+"<https://community.linuxmint.com/hardware/search>`_ (em inglês) é útil para "
+"saber quais hardwares são compatíveis."
 
 #: ../../index.rst:2
 msgid "Linux Mint Installation Guide"
@@ -856,7 +856,7 @@ msgid ""
 "This guide will help you download the right ISO image, create your bootable "
 "media and install Linux Mint on your computer."
 msgstr ""
-"Este guia irá ajudá-lo a baixar a imagem ISO correta, criar se dispositivo "
+"Este guia irá ajudá-lo a baixar a imagem ISO correta, criar uma mídia "
 "inicializável e instalar o Linux Mint no seu computador."
 
 #: ../../install.rst:2
@@ -914,8 +914,7 @@ msgid ""
 "Some applications work differently (or not at all) in the live session "
 "(Timeshift, Flatpak, Update Manager, Welcome Screen..etc.)."
 msgstr ""
-"Alguns aplicativos funcionam de forma diferente \r\n"
-"Some applications work differently (ou não) na sessão live (Timeshift, "
+"Alguns aplicativos funcionam de forma diferente na sessão live (Timeshift, "
 "Flatpak, Gerenciador de atualizações, Tela de boas-vindas...etc.)."
 
 #: ../../install.rst:22
@@ -982,9 +981,9 @@ msgstr ""
 "refere-se a criptografia completa do disco. Nesta etapa da instalação, seu "
 "layout de teclado ainda não foi selecionado, portanto, está configurado para "
 "en_US. Se você decidir usar esta opção, tenha isso em mente ao inserir uma "
-"senha. Observe que existem problemas com esta opção e alguns drivers NVIDIA. "
-"Se você é novo no Linux, use a criptografia na sua Pasta pessoal (você pode "
-"selecioná-la mais tarde durante a instalação)."
+"senha. Observe que poderá existir alguns problemas com esta opção e com "
+"alguns drivers NVIDIA. Se você é novo no Linux, use a criptografia na sua "
+"Pasta pessoal (você pode selecioná-la mais tarde durante a instalação)."
 
 #: ../../install.rst:60
 msgid ""
@@ -1013,7 +1012,7 @@ msgstr ""
 msgid ""
 "Linux Mint requires one partition to be mounted on the root ``/`` directory."
 msgstr ""
-"Linux Mint precisa de uma partição para montar o diretório raíz ``/``."
+"O Linux Mint precisa de uma partição para montar o diretório raíz ``/``."
 
 #: ../../install.rst:72
 msgid ""
@@ -1066,15 +1065,15 @@ msgid ""
 "Your ``username`` is what you log in as, and your ``hostname`` is the name "
 "of your computer on the network."
 msgstr ""
-"Seu ``nome de usuário`` é o que você faz logon, e o ``hostname (nome do seu "
-"computador)`` é o nome do seu computador na rede."
+"Seu ``nome de usuário`` é o que você faz logon, e o ``hostname`` é o nome do "
+"seu computador na rede."
 
 #: ../../install.rst:103
 msgid ""
 "To prevent bugs only use lowercase characters, with no punctuation or "
 "accentuation."
 msgstr ""
-"Para evitar erros, use somente caracteres minúsculos, sem pontuação ou "
+"Se quiser evitar erros, use somente caracteres minúsculos, sem pontuação ou "
 "acentuação."
 
 #: ../../install.rst:105
@@ -1088,7 +1087,7 @@ msgstr ""
 
 #: ../../install.rst:107
 msgid "Choose a strong password."
-msgstr "Escolha uma senha forte."
+msgstr "Lembre-se de escolher uma senha forte."
 
 #: ../../install.rst:109
 msgid "Enjoy the slideshow while Linux Mint is installed on your computer."
@@ -1410,7 +1409,7 @@ msgid ""
 "By giving ``/home`` its own dedicated partition, you separate the user data "
 "from the rest of the operating system."
 msgstr ""
-"Ao colocar `` / home`` em uma partição dedicada, você separa os dados do "
+"Ao colocar ``/home`` em uma partição dedicada, você separa os dados do "
 "usuário do resto do sistema operacional."
 
 #: ../../partitioning.rst:22
@@ -1430,8 +1429,8 @@ msgid ""
 "Assign the ``/`` mount point to the partition dedicated to the operating "
 "system, and tell the installer to format it."
 msgstr ""
-"Atribua o ponto de montagem ``/ `` à partição dedicada ao sistema "
-"operacional e informe ao instalador para formatá-la."
+"Atribua o ponto de montagem ``/`` à partição dedicada ao sistema operacional "
+"e informe ao instalador para formatá-la."
 
 #: ../../partitioning.rst:28
 msgid ""
@@ -1440,8 +1439,8 @@ msgid ""
 "**not to format it**."
 msgstr ""
 "Atribua o ponto de montagem ``/home`` à partição dedicada aos dados do "
-"usuário, e se ele contém dados do usuário já, certifique-se de informar ao "
-"instalador **para não formatá-lá**."
+"usuário, e se ela já tiver dados do usuário, certifique-se de informar ao "
+"instalador **para não formatá-la**."
 
 #: ../../partitioning.rst:31
 msgid ""
@@ -1449,10 +1448,10 @@ msgid ""
 "could wipe all your data. Always make backups, make sure to select the right "
 "partitions and to carefully review formatting options."
 msgstr ""
-"Isso não é recomendado para usuários iniciantes. Um erro durante a "
-"instalação pode apagar todos os seus dados. Sempre faça backups, certifique-"
-"se de selecionar as partições certas e de revisar cuidadosamente as opções "
-"de formatação."
+"Não recomendamos este procedimento para usuários iniciantes. Um erro durante "
+"a instalação pode apagar todos os seus dados. Sempre faça backups, "
+"certifique-se de selecionar as partições certas e de revisar cuidadosamente "
+"as opções de formatação."
 
 #: ../../partitioning.rst:34
 msgid ""
@@ -1469,11 +1468,11 @@ msgstr ""
 
 #: ../../sections.rst:5
 msgid "Download"
-msgstr "Download"
+msgstr "Baixar"
 
 #: ../../sections.rst:7
 msgid "Live Boot"
-msgstr "Inicialização Live"
+msgstr "Inicializando no modo Live"
 
 #: ../../sections.rst:9
 msgid "Installation"
@@ -1549,8 +1548,8 @@ msgid ""
 "``Boot`` snapshots are performed in the background and do not impact the "
 "speed of the boot sequence."
 msgstr ""
-"Backups da ``inicialização``são executados em segundo plano e não afetam a "
-"velocidade da seqüência de inicialização."
+"Backups da ``inicialização`` são executados em segundo plano e não afetam a "
+"velocidade da inicialização."
 
 #: ../../timeshift.rst:32
 msgid "Click :guilabel:`Finish`."
@@ -1662,12 +1661,12 @@ msgstr ""
 
 #: ../../verify.rst:41
 msgid "Import the Linux Mint signing key:"
-msgstr "importe a chave de assinatura do Linux Mint"
+msgstr "Importe a chave de assinatura do Linux Mint"
 
 #: ../../verify.rst:47
 msgid ""
 "If gpg complains about the key ID, try the following commands instead:"
-msgstr "Se o gpg reclamar sobre a chave ID, tente os seguintes comandos:"
+msgstr "Se o gpg sentir falta da chave ID, tente os seguintes comandos:"
 
 #: ../../verify.rst:54
 msgid ""
@@ -1705,4 +1704,4 @@ msgid ""
 msgstr ""
 "Para mais informações sobre a verificação da ISO, ou como verificar as "
 "versões BETA, LMDE ou versões antigas, leia `How to Verify ISO images "
-"<https://linuxmint.com/verify.php>`_."
+"<https://linuxmint.com/verify.php>`_ (em inglês)."
