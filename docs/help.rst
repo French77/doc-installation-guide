@@ -1,4 +1,4 @@
-``Where to find help``
+Where to find help
 ==================
 
 Many users will be glad to help you and guide you through your first steps with Linux if you are nice and patient with them and if you give them the information they require to understand the issues you are facing.
