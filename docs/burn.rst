@@ -11,7 +11,7 @@ How to make a bootable USB stick
 In Linux Mint
 `````````````
 
-Right-click the ISO file and select :menuselection:`Make Bootable USB Stick`, or launch :menuselection:`Menu -> Accessories -> USB Image Writer`.
+Right-click the ISO file and select :menuselection:`Make Bootable USB Stick`, or launch :menuselection:`Menu --> Accessories --> USB Image Writer`.
 
 .. figure:: images/mintstick.png
     :width: 500px
