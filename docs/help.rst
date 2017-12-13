@@ -7,7 +7,7 @@ Many users will be glad to help you and guide you through your first steps with 
 ----------
 
 The best place to find help is on the `Linux Mint Forums <https://forums.linuxmint.com>`_.
-or find help from one of the `Local Communities <https://www.linuxmint.com/links.php>`_.
+
 
 .. hint::
     Search the forums before asking, in case someone else already asked the same question.
@@ -34,7 +34,7 @@ The `tutorials section <https://community.linuxmint.com/tutorial/search>`_ is us
 
 The `hardware database <https://community.linuxmint.com/hardware/search>`_ is useful to find compatible hardware.
 
-Local communities
+``Local communities``
 -----------------
 
 To find help in your language, use the `Local Communities <https://www.linuxmint.com/links.php>`_.
