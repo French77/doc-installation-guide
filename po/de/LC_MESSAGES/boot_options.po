@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-12-08 17:12+0000\n"
-"PO-Revision-Date: 2017-12-11 15:27+0000\n"
-"Last-Translator: Clement Lefebvre <root@linuxmint.com>\n"
+"POT-Creation-Date: 2017-12-13 11:28+0000\n"
+"PO-Revision-Date: 2017-12-11 16:38+0000\n"
+"Last-Translator: Tobias Bannert <tobannert@gmail.com>\n"
 "Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-12-11 15:40+0000\n"
+"X-Launchpad-Export-Date: 2017-12-13 12:12+0000\n"
 "X-Generator: Launchpad (build 18511)\n"
 
 #: ../../boot_options.rst:2
@@ -117,8 +117,8 @@ msgid ""
 "After the installation, use :menuselection:`Advanced Options --> Recovery "
 "mode` from the boot menu and choose ``resume``."
 msgstr ""
-"Nutzen Sie nach der Installation :menuselection:`Advanced Options --> "
-"Recovery mode` aus dem Boot-Menü und wählen Sie ``resume``."
+"Nach der Installation :menuselection:`»Advanced Options« --> »Recovery "
+"mode«` aus dem Startmenü und wählen ``resume``."
 
 #: ../../boot_options.rst:56
 msgid "Install an older release"
@@ -171,7 +171,7 @@ msgstr ""
 msgid "Insert your USB stick (or DVD) into the computer."
 msgstr "Stecken Sie den USB-Stick (oder die DVD) in den Rechner."
 
-#: ../../boot.rst:8 ../../drivers.rst:23 ../../efi.rst:58 ../../oem.rst:21
+#: ../../boot.rst:8 ../../drivers.rst:23 ../../efi.rst:61 ../../oem.rst:21
 msgid "Restart the computer."
 msgstr "Starten Sie den Rechner neu."
 
@@ -210,8 +210,8 @@ msgid ""
 "On Macs, keep your finger pressed on the :kbd:`Alt` or :kbd:`Option` key "
 "after hearing the boot sound."
 msgstr ""
-"Halten Sie die :kbd:`Alt` or :kbd:`Option` Tasten gedrückt, wenn Sie den "
-"Startton hören."
+"Bei Macs: halten Sie die Taste :kbd:`Alt` oder :kbd:`Option` gedrückt, "
+"nachdem Sie den Startton gehört haben."
 
 #: ../../boot.rst:18
 msgid ""
@@ -264,12 +264,8 @@ msgstr "In Linux Mint"
 #: ../../burn.rst:14
 msgid ""
 "Right-click the ISO file and select :menuselection:`Make Bootable USB "
-"Stick`, or launch :menuselection:`Menu -> Accessories -> USB Image Writer`."
+"Stick`, or launch :menuselection:`Menu --> Accessories --> USB Image Writer`."
 msgstr ""
-"Machen Sie einen Rechtsklick auf die ISO-Datei und wählen Sie "
-":menuselection:`Bootfähigen USB-Stick erstellen`, oder starten Sie die USB-"
-"Abbilderstellung über :menuselection:`Menü -> Zubehör -> USB-"
-"Abbilderstellung`."
 
 #: ../../burn.rst:20
 msgid "Select your USB device and click :guilabel:`Write`."
@@ -394,8 +390,8 @@ msgid ""
 "Linux Mint comes in 3 different flavours, each featuring a different desktop "
 "environment."
 msgstr ""
-"Linux Mint gibt es in drei verschiedenen Varianten, jede mit einer anderen "
-"Desktop-Umgebung."
+"Linux Mint gibt es in drei verschiedenen Geschmacksrichtungen, jede mit "
+"einer anderen Arbeitsumgebung."
 
 #: ../../choose.rst:14 ../../choose.rst:26
 msgid "Cinnamon"
@@ -463,11 +459,11 @@ msgid ""
 "others, they're all great alternatives and choosing the right edition is "
 "largely a matter of taste."
 msgstr ""
-"Natürlich sind alle drei Desktopumgebungen großartig und Linux Mint ist sehr "
-"stolz auf jede davon. Obwohl es in einigen Editionen mehr Funktionen und "
-"bessere Unterstützung als andere gibt und einige schneller laufen und "
+"Natürlich sind alle drei Arbeitsumgebungen großartig und Linux Mint ist sehr "
+"stolz auf jede Ausgabe. Obwohl es in einigen Ausgaben mehr Funktionen und "
+"bessere Unterstützung als in anderen gibt und einige schneller laufen und "
 "weniger Ressourcen verbrauchen als andere, sind sie alle großartige "
-"Alternativen und die Wahl der richtigen Edition ist weitgehend eine Frage "
+"Alternativen und die Wahl der richtigen Ausgabe ist weitgehend eine Frage "
 "des Geschmacks."
 
 #: ../../choose.rst:48
@@ -478,9 +474,9 @@ msgid ""
 "where you feel at home."
 msgstr ""
 "Cinnamon, MATE und Xfce repräsentieren neben ihren Funktionen und Leistungen "
-"auch drei verschiedene Desktopumgebungen mit unterschiedlichen Menüs, "
-"verschiedenen Panels und Konfigurationstools. Der richtige für dich ist "
-"derjenige, in dem du dich zuhause fühlst."
+"auch drei verschiedene Arbeitsumgebungen mit unterschiedlichen Menüs, "
+"verschiedenen Leisten und Konfigurationsprogrammen. Der richtige für Sie ist "
+"derjenige, in dem Sie sich Zuhause fühlen."
 
 #: ../../choose.rst:50
 msgid ""
@@ -488,8 +484,10 @@ msgid ""
 "Try them all eventually when you have the time. All three of them have their "
 "own audience within the Linux Mint community and they're all very popular."
 msgstr ""
-"Wenn du unsicher bist, welchen Desktop du benutzen sollst, starte mit der "
-"Cinnamon-Variante."
+"Wenn Sie sich nicht sicher sind, welche Arbeitsumgebung Sie wählen sollen, "
+"beginnen Sie mit der Cinnamon-Ausgabe. Probieren Sie sie alle irgendwann "
+"aus, wenn Sie Zeit haben. Alle drei haben ihr eigenes Publikum in der Linux-"
+"Mint-Gemeinschaft und sie sind alle sehr beliebt."
 
 #: ../../choose.rst:54
 msgid "32-bit or 64-bit?"
@@ -647,10 +645,17 @@ msgstr ""
 "Deaktivieren Sie ``SecureBoot`` in den ``BIOS``-Einstellungen Ihres Rechners."
 
 #: ../../efi.rst:20
+msgid ""
+"For examples of how to disable secure boot on various computers, read "
+"`Managing EFI Boot Loaders for Linux: Dealing with Secure Boot "
+"<http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`_."
+msgstr ""
+
+#: ../../efi.rst:23
 msgid "EFI boot order"
 msgstr "EFI-Startreihenfolge"
 
-#: ../../efi.rst:22
+#: ../../efi.rst:25
 msgid ""
 "If after installing Linux Mint in EFI mode, your computer skips the boot "
 "menu and boots straight into Windows (or another operating system), you "
@@ -661,47 +666,47 @@ msgstr ""
 "Betriebssystem) hochfährt, liegt wahrscheinlich ein Problem mit der "
 "Startreihenfolge vor."
 
-#: ../../efi.rst:24
+#: ../../efi.rst:27
 msgid "To modify the boot order:"
 msgstr "Um die Startreihenfolge zu ändern:"
 
-#: ../../efi.rst:26 ../../multiboot.rst:18
+#: ../../efi.rst:29 ../../multiboot.rst:18
 msgid "Boot Linux Mint in ``live`` mode (with your USB stick or DVD)."
 msgstr ""
 "Starten Sie Linux Mint im ``Live``-Modus (mit Ihrem USB-Stick oder Ihrer "
 "DVD)."
 
-#: ../../efi.rst:28 ../../multiboot.rst:20
+#: ../../efi.rst:31 ../../multiboot.rst:20
 msgid "Open a terminal."
 msgstr "Öffnen Sie ein Terminal."
 
-#: ../../efi.rst:30
+#: ../../efi.rst:33
 msgid "Type ``sudo efibootmgr``."
 msgstr "Geben Sie ``sudo efibootmgr`` ein."
 
-#: ../../efi.rst:32
+#: ../../efi.rst:35
 msgid "This command lists the available boot options and the boot order."
 msgstr ""
 "Dieser Befehl listet die verfügbaren Startoptionen und die Startreihenfolge "
 "auf."
 
-#: ../../efi.rst:38
+#: ../../efi.rst:41
 msgid "In the screenshot above, there are three boot options:"
 msgstr "Im obigen Bildschirmfoto gibt es drei Startoptionen:"
 
-#: ../../efi.rst:40
+#: ../../efi.rst:43
 msgid "``ubuntu`` at ``0000``"
 msgstr "``ubuntu`` bei ``0000``"
 
-#: ../../efi.rst:41
+#: ../../efi.rst:44
 msgid "``linuxmint`` at ``0001``"
 msgstr "``linuxmint`` bei ``0001``"
 
-#: ../../efi.rst:42
+#: ../../efi.rst:45
 msgid "``Mac OS X`` at ``0081``"
 msgstr "``Mac OS X`` bei ``0081``"
 
-#: ../../efi.rst:44
+#: ../../efi.rst:47
 msgid ""
 "The boot order is ``0081``. This indicates that the computer only tries to "
 "boot Mac OS and not Linux Mint."
@@ -709,14 +714,14 @@ msgstr ""
 "Die Startreihenfolge ist ``0081``. Dies bedeutet, dass der Rechner nur "
 "versucht, Mac OS zu starten und nicht Linux Mint."
 
-#: ../../efi.rst:47
+#: ../../efi.rst:50
 msgid ""
 "For technical reasons Linux Mint uses ``ubuntu`` as its EFI boot name."
 msgstr ""
 "Aus technischen Gründen verwendet Linux Mint ``ubuntu`` als seinen EFI-"
 "Startnamen."
 
-#: ../../efi.rst:50
+#: ../../efi.rst:53
 msgid ""
 "To fix the boot order, type ``sudo efibootmgr --bootorder XXXX,YYYY`` (where "
 "``XXXX`` and ``YYYY`` are the operating system boot options you want to "
@@ -726,7 +731,7 @@ msgstr ""
 "bootorder XXXX,YYYY`` (wobei ``XXXX`` und ``YYYY`` die Startoptionen der "
 "Betriebssysteme sind, die Sie starten möchten)."
 
-#: ../../efi.rst:56
+#: ../../efi.rst:59
 msgid ""
 "In the screenshot above, ``sudo efibootmgr --bootorder 0000,0081`` instructs "
 "the computer to first try to boot Linux Mint (``ubuntu`` being the EFI boot "
@@ -736,7 +741,7 @@ msgstr ""
 "Rechner, dass zuerst versucht werden soll, Linux Mint zu starten (wobei "
 "``ubuntu`` der EFI-Startname für Linux Mint ist), und erst dann Mac OS."
 
-#: ../../efi.rst:61
+#: ../../efi.rst:64
 msgid ""
 "In the screenshot above ``0000`` is the first boot option so the computer "
 "boots on the Linux Mint grub menu. If grub fails (or if it is dismissed with "
@@ -859,6 +864,16 @@ msgid ""
 msgstr ""
 "Die `Gerätedatenbank <https://community.linuxmint.com/hardware/search>`_ ist "
 "nützlich, um kompatible Geräte zu finden."
+
+#: ../../help.rst:37
+msgid "Local communities"
+msgstr ""
+
+#: ../../help.rst:39
+msgid ""
+"To find help in your language, use the `Local Communities "
+"<https://www.linuxmint.com/links.php>`_."
+msgstr ""
 
 #: ../../index.rst:2
 msgid "Linux Mint Installation Guide"
@@ -1684,8 +1699,8 @@ msgid ""
 "If you are using Windows you can get the sha256sum (and gpg) command utility "
 "by installing `Cygwin <http://www.cygwin.com/>`_."
 msgstr ""
-"Wenn Sie Windows benutzen, können Sie den sha256sum (und gpg) - Befehl durch "
-"das Installieren von `Cygwin <http://www.cygwin.com/>`_ bekommen."
+"Wenn Sie Windows benutzen, können Sie das Befehlsprogramm »sha256sum« und "
+"»gpg« durch das Installieren von `Cygwin <http://www.cygwin.com/>`_ erhalten."
 
 #: ../../verify.rst:31
 msgid ""
@@ -1758,3 +1773,12 @@ msgstr ""
 "Für mehr Informationen zur ISO-Überprüfung oder um die BETA, LMDE oder "
 "ältere Veröffentlichungen zu überprüfen, lesen Sie `How to Verify ISO images "
 "<https://linuxmint.com/verify.php>`_."
+
+#~ msgid ""
+#~ "Right-click the ISO file and select :menuselection:`Make Bootable USB "
+#~ "Stick`, or launch :menuselection:`Menu -> Accessories -> USB Image Writer`."
+#~ msgstr ""
+#~ "Machen Sie einen Rechtsklick auf die ISO-Datei und wählen Sie "
+#~ ":menuselection:`Bootfähigen USB-Stick erstellen`, oder starten Sie die USB-"
+#~ "Abbilderstellung über :menuselection:`Menü -> Zubehör -> USB-"
+#~ "Abbilderstellung`."

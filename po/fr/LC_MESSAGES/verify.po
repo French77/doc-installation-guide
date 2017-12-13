@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Linux Mint Installation Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-08 17:12+0000\n"
-"PO-Revision-Date: 2017-12-08 17:45+0000\n"
+"POT-Creation-Date: 2017-12-13 11:28+0000\n"
+"PO-Revision-Date: 2017-12-13 11:44+0000\n"
 "Last-Translator: Clement Lefebvre <root@linuxmint.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-12-11 15:40+0000\n"
+"X-Launchpad-Export-Date: 2017-12-13 12:12+0000\n"
 "X-Generator: Launchpad (build 18511)\n"
 "Language: fr\n"
 
@@ -169,7 +169,7 @@ msgstr ""
 msgid "Insert your USB stick (or DVD) into the computer."
 msgstr "Insérez la clé USB (ou DVD) dans l'ordinateur."
 
-#: ../../boot.rst:8 ../../drivers.rst:23 ../../efi.rst:58 ../../oem.rst:21
+#: ../../boot.rst:8 ../../drivers.rst:23 ../../efi.rst:61 ../../oem.rst:21
 msgid "Restart the computer."
 msgstr "Redémarrez l'ordinateur."
 
@@ -260,11 +260,11 @@ msgstr "Sous Linux Mint"
 #: ../../burn.rst:14
 msgid ""
 "Right-click the ISO file and select :menuselection:`Make Bootable USB "
-"Stick`, or launch :menuselection:`Menu -> Accessories -> USB Image Writer`."
+"Stick`, or launch :menuselection:`Menu --> Accessories --> USB Image Writer`."
 msgstr ""
 "Faites un clic droit sur le fichier ISO et sélectionnez "
 ":menuselection:`Créer une clé USB bootable`, ou lancez :menuselection:`Menu -"
-"> Accessoires -> Créateur de clé USB`."
+"-> Accessoires --> Créateur de clé USB`."
 
 #: ../../burn.rst:20
 msgid "Select your USB device and click :guilabel:`Write`."
@@ -636,10 +636,20 @@ msgstr ""
 "Désactivez  ``SecureBoot`` dans les paramètres ``BIOS`` de votre ordinateur."
 
 #: ../../efi.rst:20
+msgid ""
+"For examples of how to disable secure boot on various computers, read "
+"`Managing EFI Boot Loaders for Linux: Dealing with Secure Boot "
+"<http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`_."
+msgstr ""
+"Pour des exemples de méthodes de désactivation de secure boot sur des "
+"ordinateurs divers, lisez `Managing EFI Boot Loaders for Linux: Dealing with "
+"Secure Boot <http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`_."
+
+#: ../../efi.rst:23
 msgid "EFI boot order"
 msgstr "Ordre de démarrage EFI"
 
-#: ../../efi.rst:22
+#: ../../efi.rst:25
 msgid ""
 "If after installing Linux Mint in EFI mode, your computer skips the boot "
 "menu and boots straight into Windows (or another operating system), you "
@@ -649,47 +659,47 @@ msgstr ""
 "démarre directement sous Windows (ou un autre système d'exploitation), vous "
 "avez probablement un problème d'ordre de démarrage."
 
-#: ../../efi.rst:24
+#: ../../efi.rst:27
 msgid "To modify the boot order:"
 msgstr "Pour modifier l'ordre de démarrage :"
 
-#: ../../efi.rst:26 ../../multiboot.rst:18
+#: ../../efi.rst:29 ../../multiboot.rst:18
 msgid "Boot Linux Mint in ``live`` mode (with your USB stick or DVD)."
 msgstr ""
 "Démarrez Linux Mint en mode ``live`` (avec votre clé USB ou votre DVD Linux "
 "Mint)."
 
-#: ../../efi.rst:28 ../../multiboot.rst:20
+#: ../../efi.rst:31 ../../multiboot.rst:20
 msgid "Open a terminal."
 msgstr "Ouvrez un terminal."
 
-#: ../../efi.rst:30
+#: ../../efi.rst:33
 msgid "Type ``sudo efibootmgr``."
 msgstr "Tapez ``sudo efibootmgr``."
 
-#: ../../efi.rst:32
+#: ../../efi.rst:35
 msgid "This command lists the available boot options and the boot order."
 msgstr ""
 "Cette commande liste les options de démarrage disponibles ainsi que l'ordre "
 "de démarrage."
 
-#: ../../efi.rst:38
+#: ../../efi.rst:41
 msgid "In the screenshot above, there are three boot options:"
 msgstr "Dans la copie d'écran ci-dessus, il y a trois options de démarrage :"
 
-#: ../../efi.rst:40
+#: ../../efi.rst:43
 msgid "``ubuntu`` at ``0000``"
 msgstr "``ubuntu`` à ``0000``"
 
-#: ../../efi.rst:41
+#: ../../efi.rst:44
 msgid "``linuxmint`` at ``0001``"
 msgstr "``linuxmint`` à ``0001``"
 
-#: ../../efi.rst:42
+#: ../../efi.rst:45
 msgid "``Mac OS X`` at ``0081``"
 msgstr "``Mac OS X`` à ``0081``"
 
-#: ../../efi.rst:44
+#: ../../efi.rst:47
 msgid ""
 "The boot order is ``0081``. This indicates that the computer only tries to "
 "boot Mac OS and not Linux Mint."
@@ -697,14 +707,14 @@ msgstr ""
 "L'ordre de démarrage est ``0081``. Cela indique que l'ordinateur n'essaye de "
 "démarrer que Mac OS, et pas Linux Mint."
 
-#: ../../efi.rst:47
+#: ../../efi.rst:50
 msgid ""
 "For technical reasons Linux Mint uses ``ubuntu`` as its EFI boot name."
 msgstr ""
 "Pour des raisons techniques Linux Mint utilise ``ubuntu`` pour son nom de "
 "démarrage EFI."
 
-#: ../../efi.rst:50
+#: ../../efi.rst:53
 msgid ""
 "To fix the boot order, type ``sudo efibootmgr --bootorder XXXX,YYYY`` (where "
 "``XXXX`` and ``YYYY`` are the operating system boot options you want to "
@@ -714,7 +724,7 @@ msgstr ""
 "XXXX,YYYY`` (où ``XXXX`` et ``YYYY`` sont les options de démarrage "
 "souhaitées)."
 
-#: ../../efi.rst:56
+#: ../../efi.rst:59
 msgid ""
 "In the screenshot above, ``sudo efibootmgr --bootorder 0000,0081`` instructs "
 "the computer to first try to boot Linux Mint (``ubuntu`` being the EFI boot "
@@ -724,7 +734,7 @@ msgstr ""
 "ordonne à l'ordinateur d'essayer d'abord de démarrer Linux Mint (``ubuntu`` "
 "étant le nom de démarrage EFI de Linux Mint), puis Mac OS."
 
-#: ../../efi.rst:61
+#: ../../efi.rst:64
 msgid ""
 "In the screenshot above ``0000`` is the first boot option so the computer "
 "boots on the Linux Mint grub menu. If grub fails (or if it is dismissed with "
@@ -849,6 +859,18 @@ msgstr ""
 "La `base de donnée de matériel "
 "<https://community.linuxmint.com/hardware/search>`_ est pratique pour "
 "trouver du matériel et des informations sur la compatibilité avec Linux Mint."
+
+#: ../../help.rst:37
+msgid "Local communities"
+msgstr "Communautés locales"
+
+#: ../../help.rst:39
+msgid ""
+"To find help in your language, use the `Local Communities "
+"<https://www.linuxmint.com/links.php>`_."
+msgstr ""
+"Pour trouver de l'aide dans votre langue, utilisez les `Communautés locales "
+"<https://www.linuxmint.com/links.php>`_."
 
 #: ../../index.rst:2
 msgid "Linux Mint Installation Guide"
@@ -1722,3 +1744,11 @@ msgstr ""
 "Pour plus d'informations sur la vérification d'ISO, ou pour vérifier des "
 "versions BETA, LMDE ou plus anciennes, lisez `How to Verify ISO images "
 "<https://linuxmint.com/verify.php>`_."
+
+#~ msgid ""
+#~ "Right-click the ISO file and select :menuselection:`Make Bootable USB "
+#~ "Stick`, or launch :menuselection:`Menu -> Accessories -> USB Image Writer`."
+#~ msgstr ""
+#~ "Faites un clic droit sur le fichier ISO et sélectionnez "
+#~ ":menuselection:`Créer une clé USB bootable`, ou lancez :menuselection:`Menu -"
+#~ "> Accessoires -> Créateur de clé USB`."

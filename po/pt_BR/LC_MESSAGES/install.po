@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-12-08 17:12+0000\n"
-"PO-Revision-Date: 2017-12-09 20:51+0000\n"
+"POT-Creation-Date: 2017-12-13 11:28+0000\n"
+"PO-Revision-Date: 2017-12-13 12:11+0000\n"
 "Last-Translator: Sitonir de Oliveira <sitonir@outlook.com>\n"
 "Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-12-11 15:40+0000\n"
+"X-Launchpad-Export-Date: 2017-12-13 12:12+0000\n"
 "X-Generator: Launchpad (build 18511)\n"
 
 #: ../../boot_options.rst:2
@@ -165,7 +165,7 @@ msgstr ""
 msgid "Insert your USB stick (or DVD) into the computer."
 msgstr "Coloque seu dispositivo USB (ou DVD) no computador."
 
-#: ../../boot.rst:8 ../../drivers.rst:23 ../../efi.rst:58 ../../oem.rst:21
+#: ../../boot.rst:8 ../../drivers.rst:23 ../../efi.rst:61 ../../oem.rst:21
 msgid "Restart the computer."
 msgstr "Reinicie o computador"
 
@@ -258,11 +258,11 @@ msgstr "No Linux Mint"
 #: ../../burn.rst:14
 msgid ""
 "Right-click the ISO file and select :menuselection:`Make Bootable USB "
-"Stick`, or launch :menuselection:`Menu -> Accessories -> USB Image Writer`."
+"Stick`, or launch :menuselection:`Menu --> Accessories --> USB Image Writer`."
 msgstr ""
-"Clique com o botão direito no arquivo ISO e selecione :menuselection:`Criar "
-"dispositivo USB inicializável`, ou vá em :menuselection:`Menu -> Acessórios -"
-"> Gravador de imagem USB`."
+"Clique com o botão direito do mouse no arquivo ISO e selecione  "
+":menuselection:`Criar dispositivo USB inicializável`, ou clique em "
+":menuselection:`Menu --> Acessórios --> Gravador de Imagem USB`."
 
 #: ../../burn.rst:20
 msgid "Select your USB device and click :guilabel:`Write`."
@@ -538,7 +538,7 @@ msgstr ""
 msgid ""
 "Launch :menuselection:`Menu --> Sound & Video --> Install Multimedia Codecs`."
 msgstr ""
-"Execute :menuselection:`Menu --> Som & Vídeo --> Instalar Codecs Multimedia`."
+"Vá em :menuselection:`Menu --> Som & Vídeo --> Instalar Codecs Multimedia`."
 
 #: ../../codecs.rst:14
 msgid "Click :guilabel:`Install`."
@@ -565,7 +565,7 @@ msgstr ""
 #: ../../drivers.rst:6
 msgid "Launch :menuselection:`Menu --> Administration --> Driver Manager`."
 msgstr ""
-"Execute :menuselection:`Menu --> Administração --> Gerenciador de Driver`."
+"Vá em :menuselection:`Menu --> Administração --> Gerenciador de Driver`."
 
 #: ../../drivers.rst:13
 msgid ""
@@ -589,7 +589,7 @@ msgid ""
 ":guilabel:`Apply Changes`."
 msgstr ""
 "Marque as caixas de seleção apropriadas para selecionar os drivers "
-"disponíveis e clique em :guilabel: `Aplicar Alterações`."
+"disponíveis e clique em :guilabel:`Aplicar Alterações`."
 
 #: ../../efi.rst:2
 msgid "EFI"
@@ -631,10 +631,21 @@ msgstr ""
 "computador."
 
 #: ../../efi.rst:20
+msgid ""
+"For examples of how to disable secure boot on various computers, read "
+"`Managing EFI Boot Loaders for Linux: Dealing with Secure Boot "
+"<http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`_."
+msgstr ""
+"Caso queira ver exemplos de como desabilitar o Secure Boot em diversos "
+"computadores, leia `Managing EFI Boot Loaders for Linux: Dealing with Secure "
+"Boot <http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`_ (em "
+"inglês)."
+
+#: ../../efi.rst:23
 msgid "EFI boot order"
 msgstr "Ordem de boot EFI"
 
-#: ../../efi.rst:22
+#: ../../efi.rst:25
 msgid ""
 "If after installing Linux Mint in EFI mode, your computer skips the boot "
 "menu and boots straight into Windows (or another operating system), you "
@@ -644,61 +655,61 @@ msgstr ""
 "menu de inicialização e iniciar diretamente no Windows (ou outro sistema "
 "operacional), provavelmente você precisará alterar a ordem de inicialização."
 
-#: ../../efi.rst:24
+#: ../../efi.rst:27
 msgid "To modify the boot order:"
 msgstr "Para modificar a ordem de inicialização:"
 
-#: ../../efi.rst:26 ../../multiboot.rst:18
+#: ../../efi.rst:29 ../../multiboot.rst:18
 msgid "Boot Linux Mint in ``live`` mode (with your USB stick or DVD)."
 msgstr ""
 "Inicialize o Linux Mint no modo ``live`` (com seu dispositivo USB ou DVD)."
 
-#: ../../efi.rst:28 ../../multiboot.rst:20
+#: ../../efi.rst:31 ../../multiboot.rst:20
 msgid "Open a terminal."
 msgstr "Abra o terminal."
 
-#: ../../efi.rst:30
+#: ../../efi.rst:33
 msgid "Type ``sudo efibootmgr``."
 msgstr "Digite ``sudo efibootmgr``."
 
-#: ../../efi.rst:32
+#: ../../efi.rst:35
 msgid "This command lists the available boot options and the boot order."
 msgstr ""
 "Esse comando lista as opções de inicialização disponíveis e a ordem de "
 "inicialização."
 
-#: ../../efi.rst:38
+#: ../../efi.rst:41
 msgid "In the screenshot above, there are three boot options:"
 msgstr "Na tela acima, há três tipos de opções de inicialização:"
 
-#: ../../efi.rst:40
+#: ../../efi.rst:43
 msgid "``ubuntu`` at ``0000``"
 msgstr "``ubuntu`` em ``0000``"
 
-#: ../../efi.rst:41
+#: ../../efi.rst:44
 msgid "``linuxmint`` at ``0001``"
 msgstr "``linuxmint`` em ``0001``"
 
-#: ../../efi.rst:42
+#: ../../efi.rst:45
 msgid "``Mac OS X`` at ``0081``"
 msgstr "``Mac OS X`` em ``0081``"
 
-#: ../../efi.rst:44
+#: ../../efi.rst:47
 msgid ""
 "The boot order is ``0081``. This indicates that the computer only tries to "
 "boot Mac OS and not Linux Mint."
 msgstr ""
-"A ordem de inicialização é ``0081``. Isso indica que o computador está "
+"O BootOrder está com o valor ``0081``. Isso indica que o computador está "
 "tentando inicializar somente o Mac OS e não o Linux Mint."
 
-#: ../../efi.rst:47
+#: ../../efi.rst:50
 msgid ""
 "For technical reasons Linux Mint uses ``ubuntu`` as its EFI boot name."
 msgstr ""
 "Por razões técnicas, o Linux Mint usa ``ubuntu`` como nome na inicialização "
 "do EFI."
 
-#: ../../efi.rst:50
+#: ../../efi.rst:53
 msgid ""
 "To fix the boot order, type ``sudo efibootmgr --bootorder XXXX,YYYY`` (where "
 "``XXXX`` and ``YYYY`` are the operating system boot options you want to "
@@ -708,7 +719,7 @@ msgstr ""
 "bootorder XXXX,YYYY`` (onde ``XXXX`` e ``YYYY`` são as opções de "
 "inicialização do sistema operacional que você deseja inicializar)."
 
-#: ../../efi.rst:56
+#: ../../efi.rst:59
 msgid ""
 "In the screenshot above, ``sudo efibootmgr --bootorder 0000,0081`` instructs "
 "the computer to first try to boot Linux Mint (``ubuntu`` being the EFI boot "
@@ -718,7 +729,7 @@ msgstr ""
 "computador a tentar inicializar o Linux Mint (``ubuntu`` sendo o nome de "
 "inicialização EFI do Linux Mint), e depois o Mac OS."
 
-#: ../../efi.rst:61
+#: ../../efi.rst:64
 msgid ""
 "In the screenshot above ``0000`` is the first boot option so the computer "
 "boots on the Linux Mint grub menu. If grub fails (or if it is dismissed with "
@@ -838,6 +849,18 @@ msgstr ""
 "O `banco de dados de hardware "
 "<https://community.linuxmint.com/hardware/search>`_ (em inglês) é útil para "
 "saber quais hardwares são compatíveis."
+
+#: ../../help.rst:37
+msgid "Local communities"
+msgstr "Comunidades Locais"
+
+#: ../../help.rst:39
+msgid ""
+"To find help in your language, use the `Local Communities "
+"<https://www.linuxmint.com/links.php>`_."
+msgstr ""
+"Para buscar ajuda em seu idioma, utilize as `Comunidades Locais "
+"<https://www.linuxmint.com/links.php>`_."
 
 #: ../../index.rst:2
 msgid "Linux Mint Installation Guide"
@@ -1126,7 +1149,7 @@ msgstr ""
 
 #: ../../locales.rst:6
 msgid "Launch :menuselection:`Menu --> Preferences --> Languages`."
-msgstr "Execute :menuselection:`Menu --> Preferências --> Idiomas`."
+msgstr "Vá em :menuselection:`Menu --> Preferências --> Idiomas`."
 
 #: ../../locales.rst:12
 msgid "Click :guilabel:`Install / Remove Language`."
@@ -1505,7 +1528,7 @@ msgstr ""
 
 #: ../../timeshift.rst:6
 msgid "Launch :menuselection:`Menu --> Administration --> Timeshift`."
-msgstr "Execute :menuselection:`Menu --> Administração --> Timeshift`."
+msgstr "Vá em :menuselection:`Menu --> Administração --> Timeshift`."
 
 #: ../../timeshift.rst:8
 msgid "Select ``RSYNC`` and click :guilabel:`Next`."
@@ -1705,3 +1728,11 @@ msgstr ""
 "Para mais informações sobre a verificação da ISO, ou como verificar as "
 "versões BETA, LMDE ou versões antigas, leia `How to Verify ISO images "
 "<https://linuxmint.com/verify.php>`_ (em inglês)."
+
+#~ msgid ""
+#~ "Right-click the ISO file and select :menuselection:`Make Bootable USB "
+#~ "Stick`, or launch :menuselection:`Menu -> Accessories -> USB Image Writer`."
+#~ msgstr ""
+#~ "Clique com o botão direito no arquivo ISO e selecione :menuselection:`Criar "
+#~ "dispositivo USB inicializável`, ou vá em :menuselection:`Menu -> Acessórios -"
+#~ "> Gravador de imagem USB`."

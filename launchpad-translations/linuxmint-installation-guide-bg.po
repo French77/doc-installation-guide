@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-12-08 17:12+0000\n"
+"POT-Creation-Date: 2017-12-13 11:28+0000\n"
 "PO-Revision-Date: 2017-12-11 15:20+0000\n"
 "Last-Translator: Clement Lefebvre <root@linuxmint.com>\n"
 "Language-Team: Bulgarian <bg@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-12-11 15:40+0000\n"
+"X-Launchpad-Export-Date: 2017-12-13 12:12+0000\n"
 "X-Generator: Launchpad (build 18511)\n"
 
 #: ../../boot_options.rst:2
@@ -162,7 +162,7 @@ msgstr ""
 msgid "Insert your USB stick (or DVD) into the computer."
 msgstr "Вкарайте флашката ()или диска в компютъра."
 
-#: ../../boot.rst:8 ../../drivers.rst:23 ../../efi.rst:58 ../../oem.rst:21
+#: ../../boot.rst:8 ../../drivers.rst:23 ../../efi.rst:61 ../../oem.rst:21
 msgid "Restart the computer."
 msgstr "Рестартиране на компютъра."
 
@@ -251,11 +251,8 @@ msgstr "В Линукс Минт"
 #: ../../burn.rst:14
 msgid ""
 "Right-click the ISO file and select :menuselection:`Make Bootable USB "
-"Stick`, or launch :menuselection:`Menu -> Accessories -> USB Image Writer`."
+"Stick`, or launch :menuselection:`Menu --> Accessories --> USB Image Writer`."
 msgstr ""
-"Десен бутон на ISO файла и избирате  :menuselection:`Създаване на стартиращ "
-"USB диск`, или стартирайте :menuselection:`Меню -> Аксесоари -> Запис на "
-"образ на USB`."
 
 #: ../../burn.rst:20
 msgid "Select your USB device and click :guilabel:`Write`."
@@ -620,10 +617,17 @@ msgid "Disable ``SecureBoot`` in the ``BIOS`` settings of your computer."
 msgstr "Изключете ``SecureBoot`` от настройките на ``BIOS`` -а на компютъра."
 
 #: ../../efi.rst:20
+msgid ""
+"For examples of how to disable secure boot on various computers, read "
+"`Managing EFI Boot Loaders for Linux: Dealing with Secure Boot "
+"<http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`_."
+msgstr ""
+
+#: ../../efi.rst:23
 msgid "EFI boot order"
 msgstr "EFI ред на стартиране"
 
-#: ../../efi.rst:22
+#: ../../efi.rst:25
 msgid ""
 "If after installing Linux Mint in EFI mode, your computer skips the boot "
 "menu and boots straight into Windows (or another operating system), you "
@@ -633,43 +637,43 @@ msgstr ""
 "boot менюто, а направо зарежда Windows (или друга операционна система), "
 "вероятно имате проблем с подредбата за  стартиране."
 
-#: ../../efi.rst:24
+#: ../../efi.rst:27
 msgid "To modify the boot order:"
 msgstr "За да промените реда на стартиране:"
 
-#: ../../efi.rst:26 ../../multiboot.rst:18
+#: ../../efi.rst:29 ../../multiboot.rst:18
 msgid "Boot Linux Mint in ``live`` mode (with your USB stick or DVD)."
 msgstr "Стартирайте Линукс Минт в ``live`` режим (от вашето USB или DVD)."
 
-#: ../../efi.rst:28 ../../multiboot.rst:20
+#: ../../efi.rst:31 ../../multiboot.rst:20
 msgid "Open a terminal."
 msgstr "Отворете терминал."
 
-#: ../../efi.rst:30
+#: ../../efi.rst:33
 msgid "Type ``sudo efibootmgr``."
 msgstr "Въведете ``sudo efibootmgr``."
 
-#: ../../efi.rst:32
+#: ../../efi.rst:35
 msgid "This command lists the available boot options and the boot order."
 msgstr "Тази команда показва списъка и реда на наличните boot опции."
 
-#: ../../efi.rst:38
+#: ../../efi.rst:41
 msgid "In the screenshot above, there are three boot options:"
 msgstr "На снимката по-горе има три boot опции"
 
-#: ../../efi.rst:40
+#: ../../efi.rst:43
 msgid "``ubuntu`` at ``0000``"
 msgstr "``ubuntu`` като ``0000``"
 
-#: ../../efi.rst:41
+#: ../../efi.rst:44
 msgid "``linuxmint`` at ``0001``"
 msgstr "``linuxmint`` като ``0001``"
 
-#: ../../efi.rst:42
+#: ../../efi.rst:45
 msgid "``Mac OS X`` at ``0081``"
 msgstr "``Mac OS X`` като ``0081``"
 
-#: ../../efi.rst:44
+#: ../../efi.rst:47
 msgid ""
 "The boot order is ``0081``. This indicates that the computer only tries to "
 "boot Mac OS and not Linux Mint."
@@ -677,12 +681,12 @@ msgstr ""
 "В boot order е ``0081``. Това показва че компютъра ще опита да стартира Mac "
 "OS , но не и Линукс Минт."
 
-#: ../../efi.rst:47
+#: ../../efi.rst:50
 msgid ""
 "For technical reasons Linux Mint uses ``ubuntu`` as its EFI boot name."
 msgstr "По техниччески причини Линукс Минт използва ``ubuntu``за EFI име."
 
-#: ../../efi.rst:50
+#: ../../efi.rst:53
 msgid ""
 "To fix the boot order, type ``sudo efibootmgr --bootorder XXXX,YYYY`` (where "
 "``XXXX`` and ``YYYY`` are the operating system boot options you want to "
@@ -692,7 +696,7 @@ msgstr ""
 "XXXX,YYYY`` (където ``XXXX`` и ``YYYY`` са boot опциите на операционната "
 "система, която искате да стартира)."
 
-#: ../../efi.rst:56
+#: ../../efi.rst:59
 msgid ""
 "In the screenshot above, ``sudo efibootmgr --bootorder 0000,0081`` instructs "
 "the computer to first try to boot Linux Mint (``ubuntu`` being the EFI boot "
@@ -702,7 +706,7 @@ msgstr ""
 "компютъра първо да стартира Линукс Минт (``ubuntu`` е EFI името на Линукс "
 "Минт), а след това Mac OS."
 
-#: ../../efi.rst:61
+#: ../../efi.rst:64
 msgid ""
 "In the screenshot above ``0000`` is the first boot option so the computer "
 "boots on the Linux Mint grub menu. If grub fails (or if it is dismissed with "
@@ -820,6 +824,16 @@ msgid ""
 msgstr ""
 "`Хардуерната база данни <https://community.linuxmint.com/hardware/search>`_ "
 "е полезна, за да намерите съвместим хардуер."
+
+#: ../../help.rst:37
+msgid "Local communities"
+msgstr ""
+
+#: ../../help.rst:39
+msgid ""
+"To find help in your language, use the `Local Communities "
+"<https://www.linuxmint.com/links.php>`_."
+msgstr ""
 
 #: ../../index.rst:2
 msgid "Linux Mint Installation Guide"
@@ -1678,3 +1692,11 @@ msgstr ""
 "За повече информация за проверката на ISO, или за проверка на BETA, LMDE или "
 "по-стари версии, прочетете `Как да проверя ISO образи "
 "<https://linuxmint.com/verify.php>`_."
+
+#~ msgid ""
+#~ "Right-click the ISO file and select :menuselection:`Make Bootable USB "
+#~ "Stick`, or launch :menuselection:`Menu -> Accessories -> USB Image Writer`."
+#~ msgstr ""
+#~ "Десен бутон на ISO файла и избирате  :menuselection:`Създаване на стартиращ "
+#~ "USB диск`, или стартирайте :menuselection:`Меню -> Аксесоари -> Запис на "
+#~ "образ на USB`."
