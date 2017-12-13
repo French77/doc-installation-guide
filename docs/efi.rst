@@ -16,6 +16,9 @@ If after installing Linux Mint in EFI mode, you are unable to boot due to a ``Se
 
 * Disable ``SecureBoot`` in the ``BIOS`` settings of your computer.
 
+.. note::
+    For examples of how to disable secure boot on various computers, read `Managing EFI Boot Loaders for Linux: Dealing with Secure Boot <http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`_.
+
 EFI boot order
 --------------
 
