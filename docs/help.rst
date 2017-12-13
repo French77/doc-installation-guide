@@ -33,3 +33,8 @@ Community resources
 The `tutorials section <https://community.linuxmint.com/tutorial/search>`_ is useful to find tutorials about Linux Mint.
 
 The `hardware database <https://community.linuxmint.com/hardware/search>`_ is useful to find compatible hardware.
+
+Local communities
+-----------------
+
+To find help in your language, use the `Local Communities <https://www.linuxmint.com/links.php>`_.

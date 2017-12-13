@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Linux Mint Installation Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-08 10:51+0000\n"
-"PO-Revision-Date: 2017-12-08 11:04+0000\n"
+"POT-Creation-Date: 2017-12-13 11:28+0000\n"
+"PO-Revision-Date: 2017-12-13 11:44+0000\n"
 "Last-Translator: Clement Lefebvre <root@linuxmint.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-12-08 11:19+0000\n"
+"X-Launchpad-Export-Date: 2017-12-13 12:12+0000\n"
 "X-Generator: Launchpad (build 18511)\n"
 "Language: fr\n"
 
@@ -169,7 +169,7 @@ msgstr ""
 msgid "Insert your USB stick (or DVD) into the computer."
 msgstr "Insérez la clé USB (ou DVD) dans l'ordinateur."
 
-#: ../../boot.rst:8 ../../drivers.rst:23 ../../efi.rst:58 ../../oem.rst:21
+#: ../../boot.rst:8 ../../drivers.rst:23 ../../efi.rst:61 ../../oem.rst:21
 msgid "Restart the computer."
 msgstr "Redémarrez l'ordinateur."
 
@@ -260,11 +260,11 @@ msgstr "Sous Linux Mint"
 #: ../../burn.rst:14
 msgid ""
 "Right-click the ISO file and select :menuselection:`Make Bootable USB "
-"Stick`, or launch :menuselection:`Menu -> Accessories -> USB Image Writer`."
+"Stick`, or launch :menuselection:`Menu --> Accessories --> USB Image Writer`."
 msgstr ""
 "Faites un clic droit sur le fichier ISO et sélectionnez "
 ":menuselection:`Créer une clé USB bootable`, ou lancez :menuselection:`Menu -"
-"> Accessoires -> Créateur de clé USB`."
+"-> Accessoires --> Créateur de clé USB`."
 
 #: ../../burn.rst:20
 msgid "Select your USB device and click :guilabel:`Write`."
@@ -522,16 +522,6 @@ msgstr ""
 "n'est pas compatible, rien de grave ne se produira. Vous verrez juste un "
 "message d'erreur."
 
-#: ../../choose.rst:66
-msgid ""
-"Don't run Linux Mint 32-bit on a 64-bit processor. Although it works, it "
-"limits the amount of detected RAM to a maximum of 4GB and it can have a "
-"negative impact on the performance of the operating system."
-msgstr ""
-"N'utilisez pas Linux Mint 32-bit avec un processeur 64-bit. Bien que cela "
-"fonctionne, la mémoire RAM détectée sera limitée à 4Go et cela peut avoir "
-"des conséquences négatives sur les performances du système d'exploitation."
-
 #: ../../codecs.rst:2
 msgid "Multimedia codecs"
 msgstr "Codecs multimédia"
@@ -646,10 +636,20 @@ msgstr ""
 "Désactivez  ``SecureBoot`` dans les paramètres ``BIOS`` de votre ordinateur."
 
 #: ../../efi.rst:20
+msgid ""
+"For examples of how to disable secure boot on various computers, read "
+"`Managing EFI Boot Loaders for Linux: Dealing with Secure Boot "
+"<http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`_."
+msgstr ""
+"Pour des exemples de méthodes de désactivation de secure boot sur des "
+"ordinateurs divers, lisez `Managing EFI Boot Loaders for Linux: Dealing with "
+"Secure Boot <http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`_."
+
+#: ../../efi.rst:23
 msgid "EFI boot order"
 msgstr "Ordre de démarrage EFI"
 
-#: ../../efi.rst:22
+#: ../../efi.rst:25
 msgid ""
 "If after installing Linux Mint in EFI mode, your computer skips the boot "
 "menu and boots straight into Windows (or another operating system), you "
@@ -659,47 +659,47 @@ msgstr ""
 "démarre directement sous Windows (ou un autre système d'exploitation), vous "
 "avez probablement un problème d'ordre de démarrage."
 
-#: ../../efi.rst:24
+#: ../../efi.rst:27
 msgid "To modify the boot order:"
 msgstr "Pour modifier l'ordre de démarrage :"
 
-#: ../../efi.rst:26 ../../multiboot.rst:18
+#: ../../efi.rst:29 ../../multiboot.rst:18
 msgid "Boot Linux Mint in ``live`` mode (with your USB stick or DVD)."
 msgstr ""
 "Démarrez Linux Mint en mode ``live`` (avec votre clé USB ou votre DVD Linux "
 "Mint)."
 
-#: ../../efi.rst:28 ../../multiboot.rst:20
+#: ../../efi.rst:31 ../../multiboot.rst:20
 msgid "Open a terminal."
 msgstr "Ouvrez un terminal."
 
-#: ../../efi.rst:30
+#: ../../efi.rst:33
 msgid "Type ``sudo efibootmgr``."
 msgstr "Tapez ``sudo efibootmgr``."
 
-#: ../../efi.rst:32
+#: ../../efi.rst:35
 msgid "This command lists the available boot options and the boot order."
 msgstr ""
 "Cette commande liste les options de démarrage disponibles ainsi que l'ordre "
 "de démarrage."
 
-#: ../../efi.rst:38
+#: ../../efi.rst:41
 msgid "In the screenshot above, there are three boot options:"
 msgstr "Dans la copie d'écran ci-dessus, il y a trois options de démarrage :"
 
-#: ../../efi.rst:40
+#: ../../efi.rst:43
 msgid "``ubuntu`` at ``0000``"
 msgstr "``ubuntu`` à ``0000``"
 
-#: ../../efi.rst:41
+#: ../../efi.rst:44
 msgid "``linuxmint`` at ``0001``"
 msgstr "``linuxmint`` à ``0001``"
 
-#: ../../efi.rst:42
+#: ../../efi.rst:45
 msgid "``Mac OS X`` at ``0081``"
 msgstr "``Mac OS X`` à ``0081``"
 
-#: ../../efi.rst:44
+#: ../../efi.rst:47
 msgid ""
 "The boot order is ``0081``. This indicates that the computer only tries to "
 "boot Mac OS and not Linux Mint."
@@ -707,14 +707,14 @@ msgstr ""
 "L'ordre de démarrage est ``0081``. Cela indique que l'ordinateur n'essaye de "
 "démarrer que Mac OS, et pas Linux Mint."
 
-#: ../../efi.rst:47
+#: ../../efi.rst:50
 msgid ""
 "For technical reasons Linux Mint uses ``ubuntu`` as its EFI boot name."
 msgstr ""
 "Pour des raisons techniques Linux Mint utilise ``ubuntu`` pour son nom de "
 "démarrage EFI."
 
-#: ../../efi.rst:50
+#: ../../efi.rst:53
 msgid ""
 "To fix the boot order, type ``sudo efibootmgr --bootorder XXXX,YYYY`` (where "
 "``XXXX`` and ``YYYY`` are the operating system boot options you want to "
@@ -724,7 +724,7 @@ msgstr ""
 "XXXX,YYYY`` (où ``XXXX`` et ``YYYY`` sont les options de démarrage "
 "souhaitées)."
 
-#: ../../efi.rst:56
+#: ../../efi.rst:59
 msgid ""
 "In the screenshot above, ``sudo efibootmgr --bootorder 0000,0081`` instructs "
 "the computer to first try to boot Linux Mint (``ubuntu`` being the EFI boot "
@@ -734,7 +734,7 @@ msgstr ""
 "ordonne à l'ordinateur d'essayer d'abord de démarrer Linux Mint (``ubuntu`` "
 "étant le nom de démarrage EFI de Linux Mint), puis Mac OS."
 
-#: ../../efi.rst:61
+#: ../../efi.rst:64
 msgid ""
 "In the screenshot above ``0000`` is the first boot option so the computer "
 "boots on the Linux Mint grub menu. If grub fails (or if it is dismissed with "
@@ -859,6 +859,18 @@ msgstr ""
 "La `base de donnée de matériel "
 "<https://community.linuxmint.com/hardware/search>`_ est pratique pour "
 "trouver du matériel et des informations sur la compatibilité avec Linux Mint."
+
+#: ../../help.rst:37
+msgid "Local communities"
+msgstr "Communautés locales"
+
+#: ../../help.rst:39
+msgid ""
+"To find help in your language, use the `Local Communities "
+"<https://www.linuxmint.com/links.php>`_."
+msgstr ""
+"Pour trouver de l'aide dans votre langue, utilisez les `Communautés locales "
+"<https://www.linuxmint.com/links.php>`_."
 
 #: ../../index.rst:2
 msgid "Linux Mint Installation Guide"
@@ -1366,47 +1378,60 @@ msgid "Partitioning"
 msgstr "Partitionnement"
 
 #: ../../partitioning.rst:5
-msgid "Device and partition names"
-msgstr "Nom des périphériques et des partitions"
+msgid "Disks and partitions under Linux"
+msgstr "Disques et partitions sous Linux"
 
 #: ../../partitioning.rst:7
 msgid ""
 "If you are not familiar with the Linux naming scheme for devices and "
-"partitions, read `Device Names in Linux "
-"<https://www.debian.org/releases/wheezy/amd64/apcs04.html.en>`_."
+"partitions, or the concept of filesystems and mount points, read:"
 msgstr ""
 "Si vous ne connaissez pas la méthode de nommage des partitions et "
-"périphériques sous Linux, lisez `Noms des périphériques sous Linux "
-"<https://www.debian.org/releases/wheezy/amd64/apcs04.html.fr>`_."
+"périphériques sous Linux, ou les concepts de systèmes de fichiers et points "
+"de montage, lisez :"
+
+#: ../../partitioning.rst:9
+msgid ""
+"`A beginner’s guide to disks and disk partitions in Linux "
+"<http://linuxbsdos.com/2014/11/08/a-beginners-guide-to-disks-and-disk-"
+"partitions-in-linux/>`_"
+msgstr ""
+"`A beginner’s guide to disks and disk partitions in Linux "
+"<http://linuxbsdos.com/2014/11/08/a-beginners-guide-to-disks-and-disk-"
+"partitions-in-linux/>`_"
 
 #: ../../partitioning.rst:10
-msgid "Filesystem and mount points"
-msgstr "Systèmes de fichiers et points de montage"
-
-#: ../../partitioning.rst:12
 msgid ""
-"If you are not familiar with the Linux filesystem and the concept of mount "
-"points, read `Understanding the Linux File System "
+"`Device Names in Linux "
+"<https://www.debian.org/releases/wheezy/amd64/apcs04.html.en>`_"
+msgstr ""
+"`Noms des périphériques sous Linux "
+"<https://www.debian.org/releases/wheezy/amd64/apcs04.html.fr>`_"
+
+#: ../../partitioning.rst:11
+msgid ""
+"`Understanding the Linux File System "
 "<http://etutorials.org/Linux+systems/red+hat+linux+9+professional+secrets/Par"
 "t+II+Exploring+Red+Hat+Linux/Chapter+7+Red+Hat+Linux+Basics/Understanding+the"
-"+Linux+File+System/>`_."
+"+Linux+File+System/>`_"
 msgstr ""
-"Si vous ne connaissez pas les concepts de systèmes de fichiers et points de "
-"montages, lisez `Point de montage "
-"<https://fr.wikipedia.org/wiki/Point_de_montage>`_."
+"`Understanding the Linux File System "
+"<http://etutorials.org/Linux+systems/red+hat+linux+9+professional+secrets/Par"
+"t+II+Exploring+Red+Hat+Linux/Chapter+7+Red+Hat+Linux+Basics/Understanding+the"
+"+Linux+File+System/>`_"
 
-#: ../../partitioning.rst:15
+#: ../../partitioning.rst:14
 msgid "Dedicated /home partition"
 msgstr "Partition /home dédiée"
 
-#: ../../partitioning.rst:17
+#: ../../partitioning.rst:16
 msgid ""
 "In Linux, the ``/home`` directory is used to store user data and preferences."
 msgstr ""
 "Sous Linux, le répertoire ``/home`` est utilisé pour les données des "
 "utilisateurs."
 
-#: ../../partitioning.rst:19
+#: ../../partitioning.rst:18
 msgid ""
 "This directory contains one subdirectoy for each user account. Say your "
 "username is ``john``, your home directory is ``/home/john``, your downloads "
@@ -1419,7 +1444,7 @@ msgstr ""
 "dans ``/home/john/Documents``, et vos favoris Firefox quelque part dans "
 "``/home/john/.mozilla`` etc..."
 
-#: ../../partitioning.rst:21
+#: ../../partitioning.rst:20
 msgid ""
 "By giving ``/home`` its own dedicated partition, you separate the user data "
 "from the rest of the operating system."
@@ -1427,7 +1452,7 @@ msgstr ""
 "En plaçant ``/home`` sur une partition dédiée, vous séparez les données des "
 "utilisateurs du reste du système d'exploitation."
 
-#: ../../partitioning.rst:23
+#: ../../partitioning.rst:22
 msgid ""
 "The advantage is that you can wipe the operating system and replace it "
 "without affecting the user data."
@@ -1435,11 +1460,11 @@ msgstr ""
 "Cela présente l'avantage de pouvoir écraser le système d'exploitation et de "
 "le remplacer sans que cela n'affecte les données des utilisateurs."
 
-#: ../../partitioning.rst:25
+#: ../../partitioning.rst:24
 msgid "When installing Linux Mint:"
 msgstr "Pendant l'installation de Linux Mint :"
 
-#: ../../partitioning.rst:27
+#: ../../partitioning.rst:26
 msgid ""
 "Assign the ``/`` mount point to the partition dedicated to the operating "
 "system, and tell the installer to format it."
@@ -1447,7 +1472,7 @@ msgstr ""
 "Assignez au point de montage ``/`` la partition dédiée au système "
 "d'exploitation et demandez à l'installeur de la formater."
 
-#: ../../partitioning.rst:29
+#: ../../partitioning.rst:28
 msgid ""
 "Assign the ``/home`` mount point to the partition dedicated to the user "
 "data, and if it contains user data already, make sure to tell the installer "
@@ -1456,7 +1481,7 @@ msgstr ""
 "Assignez au point de montage ``/home`` la partition dédiée aux données des "
 "utilisateurs et demandez à l'installeur de **ne pas la formater**."
 
-#: ../../partitioning.rst:32
+#: ../../partitioning.rst:31
 msgid ""
 "This is not recommended for novice users. A misstep during the installation "
 "could wipe all your data. Always make backups, make sure to select the right "
@@ -1467,7 +1492,7 @@ msgstr ""
 "une sauvegarde, vérifiez que vous sélectionnez les bonnes partitions et "
 "options de formatage."
 
-#: ../../partitioning.rst:35
+#: ../../partitioning.rst:34
 msgid ""
 "A Linux Mint operating system takes about 15GB and grows as you install "
 "additional software. If you can spare the size, give it 100GB. Keep most of "
@@ -1721,8 +1746,9 @@ msgstr ""
 "<https://linuxmint.com/verify.php>`_."
 
 #~ msgid ""
-#~ "On Macs, key your finger pressed on the :kbd:`Alt` or :kbd:`Option` key "
-#~ "after hearing the boot sound."
+#~ "Right-click the ISO file and select :menuselection:`Make Bootable USB "
+#~ "Stick`, or launch :menuselection:`Menu -> Accessories -> USB Image Writer`."
 #~ msgstr ""
-#~ "Sur les Macs, laissez le doigt appuyé sur :kbd:`Alt` ou :kbd:`Option`après "
-#~ "avoir entendu le son de démarrage."
+#~ "Faites un clic droit sur le fichier ISO et sélectionnez "
+#~ ":menuselection:`Créer une clé USB bootable`, ou lancez :menuselection:`Menu -"
+#~ "> Accessoires -> Créateur de clé USB`."

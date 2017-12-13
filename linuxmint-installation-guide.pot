@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Linux Mint Installation Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-08 17:12+0000\n"
+"POT-Creation-Date: 2017-12-13 11:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -136,7 +136,7 @@ msgstr ""
 msgid "Insert your USB stick (or DVD) into the computer."
 msgstr ""
 
-#: ../../boot.rst:8 ../../drivers.rst:23 ../../efi.rst:58 ../../oem.rst:21
+#: ../../boot.rst:8 ../../drivers.rst:23 ../../efi.rst:61 ../../oem.rst:21
 msgid "Restart the computer."
 msgstr ""
 
@@ -207,7 +207,7 @@ msgstr ""
 #: ../../burn.rst:14
 msgid ""
 "Right-click the ISO file and select :menuselection:`Make Bootable USB "
-"Stick`, or launch :menuselection:`Menu -> Accessories -> USB Image Writer`."
+"Stick`, or launch :menuselection:`Menu --> Accessories --> USB Image Writer`."
 msgstr ""
 
 #: ../../burn.rst:20
@@ -505,77 +505,84 @@ msgid "Disable ``SecureBoot`` in the ``BIOS`` settings of your computer."
 msgstr ""
 
 #: ../../efi.rst:20
+msgid ""
+"For examples of how to disable secure boot on various computers, read "
+"`Managing EFI Boot Loaders for Linux: Dealing with Secure Boot <http://www."
+"rodsbooks.com/efi-bootloaders/secureboot.html>`_."
+msgstr ""
+
+#: ../../efi.rst:23
 msgid "EFI boot order"
 msgstr ""
 
-#: ../../efi.rst:22
+#: ../../efi.rst:25
 msgid ""
 "If after installing Linux Mint in EFI mode, your computer skips the boot "
 "menu and boots straight into Windows (or another operating system), you "
 "probably have an issue with the boot order."
 msgstr ""
 
-#: ../../efi.rst:24
+#: ../../efi.rst:27
 msgid "To modify the boot order:"
 msgstr ""
 
-#: ../../efi.rst:26 ../../multiboot.rst:18
+#: ../../efi.rst:29 ../../multiboot.rst:18
 msgid "Boot Linux Mint in ``live`` mode (with your USB stick or DVD)."
 msgstr ""
 
-#: ../../efi.rst:28 ../../multiboot.rst:20
+#: ../../efi.rst:31 ../../multiboot.rst:20
 msgid "Open a terminal."
 msgstr ""
 
-#: ../../efi.rst:30
+#: ../../efi.rst:33
 msgid "Type ``sudo efibootmgr``."
 msgstr ""
 
-#: ../../efi.rst:32
+#: ../../efi.rst:35
 msgid "This command lists the available boot options and the boot order."
 msgstr ""
 
-#: ../../efi.rst:38
+#: ../../efi.rst:41
 msgid "In the screenshot above, there are three boot options:"
 msgstr ""
 
-#: ../../efi.rst:40
+#: ../../efi.rst:43
 msgid "``ubuntu`` at ``0000``"
 msgstr ""
 
-#: ../../efi.rst:41
+#: ../../efi.rst:44
 msgid "``linuxmint`` at ``0001``"
 msgstr ""
 
-#: ../../efi.rst:42
+#: ../../efi.rst:45
 msgid "``Mac OS X`` at ``0081``"
 msgstr ""
 
-#: ../../efi.rst:44
+#: ../../efi.rst:47
 msgid ""
 "The boot order is ``0081``. This indicates that the computer only tries to "
 "boot Mac OS and not Linux Mint."
 msgstr ""
 
-#: ../../efi.rst:47
+#: ../../efi.rst:50
 msgid "For technical reasons Linux Mint uses ``ubuntu`` as its EFI boot name."
 msgstr ""
 
-#: ../../efi.rst:50
+#: ../../efi.rst:53
 msgid ""
 "To fix the boot order, type ``sudo efibootmgr --bootorder XXXX,YYYY`` (where "
 "``XXXX`` and ``YYYY`` are the operating system boot options you want to "
 "boot)."
 msgstr ""
 
-#: ../../efi.rst:56
+#: ../../efi.rst:59
 msgid ""
 "In the screenshot above, ``sudo efibootmgr --bootorder 0000,0081`` instructs "
 "the computer to first try to boot Linux Mint (``ubuntu`` being the EFI boot "
 "name for Linux Mint), and then Mac OS."
 msgstr ""
 
-#: ../../efi.rst:61
+#: ../../efi.rst:64
 msgid ""
 "In the screenshot above ``0000`` is the first boot option so the computer "
 "boots on the Linux Mint grub menu. If grub fails (or if it is dismissed with "
@@ -662,6 +669,16 @@ msgstr ""
 msgid ""
 "The `hardware database <https://community.linuxmint.com/hardware/search>`_ "
 "is useful to find compatible hardware."
+msgstr ""
+
+#: ../../help.rst:37
+msgid "Local communities"
+msgstr ""
+
+#: ../../help.rst:39
+msgid ""
+"To find help in your language, use the `Local Communities <https://www."
+"linuxmint.com/links.php>`_."
 msgstr ""
 
 #: ../../index.rst:2
