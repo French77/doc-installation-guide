@@ -1,3 +1,5 @@
+.. image:: https://i.imgur.com/8OSIkB3.png"Screenshot.
+
 Linux Mint Installation Guide
 =============================
 
