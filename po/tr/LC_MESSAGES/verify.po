@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2017-12-13 11:28+0000\n"
-"PO-Revision-Date: 2017-12-13 12:07+0000\n"
-"Last-Translator: Clement Lefebvre <root@linuxmint.com>\n"
+"PO-Revision-Date: 2017-12-13 19:30+0000\n"
+"Last-Translator: Butterfly <Unknown>\n"
 "Language-Team: Turkish <tr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-12-13 12:12+0000\n"
-"X-Generator: Launchpad (build 18511)\n"
+"X-Launchpad-Export-Date: 2018-01-06 14:25+0000\n"
+"X-Generator: Launchpad (build 18521)\n"
 
 #: ../../boot_options.rst:2
 msgid "Boot options"
@@ -170,7 +170,7 @@ msgstr "USB belleğinizi (ya da DVD'nizi) bilgisayarınıza takınız."
 
 #: ../../boot.rst:8 ../../drivers.rst:23 ../../efi.rst:61 ../../oem.rst:21
 msgid "Restart the computer."
-msgstr "Bilgisayarı yeniden başlat."
+msgstr "Bilgisayarı yeniden başlatın."
 
 #: ../../boot.rst:10
 msgid ""
@@ -261,6 +261,9 @@ msgid ""
 "Right-click the ISO file and select :menuselection:`Make Bootable USB "
 "Stick`, or launch :menuselection:`Menu --> Accessories --> USB Image Writer`."
 msgstr ""
+"ISO dosyasına sağ tıklayın ve :menuselection:`Boot edilebilir USB bellek "
+"hazırla` seçeneğini, ya da :menuselection:`Menü --> Donatılar --> USB Kalıp "
+"Yazıcı`kısayolunu seçin."
 
 #: ../../burn.rst:20
 msgid "Select your USB device and click :guilabel:`Write`."
@@ -363,13 +366,14 @@ msgid ""
 "You can download Linux Mint from the `Linux Mint website "
 "<https://linuxmint.com/download.php>`_."
 msgstr ""
-"Linux Mint'i `Linux Mint website <https://linuxmint.com/download.php>`_ "
+"Linux Mint'i `Linux Mint websitesi <https://linuxmint.com/download.php>`_ "
 "bağlantısından indirebilirsiniz."
 
 #: ../../choose.rst:6
 msgid ""
 "Read below to choose which edition and architecture are right for you."
-msgstr "Doğru sürümü ve mimariyi seçmek için aşağıdakileri okuyunuz."
+msgstr ""
+"Doğru sürümü ve mimariyi seçmek için aşağıdakileri inceleyebilirsiniz."
 
 #: ../../choose.rst:9
 msgid "Cinnamon, MATE or Xfce?"
@@ -380,7 +384,7 @@ msgid ""
 "Linux Mint comes in 3 different flavours, each featuring a different desktop "
 "environment."
 msgstr ""
-"Linux Mint 3 farklı sürümde gelmektedir, her biri farklı masaüstü ortamını "
+"Linux Mint, 3 farklı sürümde gelmektedir, her biri farklı masaüstü ortamını "
 "içerir."
 
 #: ../../choose.rst:14 ../../choose.rst:26
@@ -463,8 +467,8 @@ msgid ""
 msgstr ""
 "Özellikleri ve performansları dışında, Cinnamon, MATE ve Xfce farklı "
 "menüler, farklı paneller ve yapılandırma araçları içeren üç farklı masaüstü "
-"ortamını temsil etmektedir. Sizin için en uygun olanı evinizde sizi evinizde "
-"hissetirendir, yani tamamen kişisel bir tercihtir."
+"ortamını temsil etmektedir. Sizin için en uygun olanı sizi evinizde "
+"hissettirendir, yani tamamen kişisel bir tercihtir."
 
 #: ../../choose.rst:50
 msgid ""
@@ -504,15 +508,15 @@ msgid ""
 "<https://en.wikipedia.org/wiki/X86#Chronology>`_."
 msgstr ""
 "Eğer eski bir bilgisayara sahipseniz ve bilgisayarınızın 64-bit'i "
-"desteklediğinden emin değilseniz, şuraya bakın: `X86 Chronology "
-"<https://en.wikipedia.org/wiki/X86#Chronology>`_"
+"desteklediğinden emin değilseniz, şu bağlantıyı inceleyebilirsiniz: `X86 "
+"Kronolojisi <https://en.wikipedia.org/wiki/X86#Chronology>`_"
 
 #: ../../choose.rst:63
 msgid ""
 "You can try to boot Linux Mint 64-bit on your computer. If it isn't "
 "compatible, nothing bad will happen. You will just get an error message."
 msgstr ""
-"Bilgisayarınızı Linux Mint 64-bit ile açmayı dneyebilirsiniz. Eğer uyumlu "
+"Bilgisayarınızı Linux Mint 64-bit ile açmayı deneyebilirsiniz. Eğer uyumlu "
 "değilse, kötü bir sonuçla karşılaşmazsınız. Sadece bir hata mesajı alırsınız."
 
 #: ../../codecs.rst:2
@@ -541,7 +545,7 @@ msgstr ""
 
 #: ../../codecs.rst:14
 msgid "Click :guilabel:`Install`."
-msgstr ":guilabel:`Kur`düğmesine tıklayın."
+msgstr ":guilabel:`Kur` düğmesine tıklayın."
 
 #: ../../codecs.rst:16
 msgid ""
@@ -636,6 +640,10 @@ msgid ""
 "`Managing EFI Boot Loaders for Linux: Dealing with Secure Boot "
 "<http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`_."
 msgstr ""
+"Çeşitli bilgisayarlarda secure boot özelliğini devre dışı bırakma örnekleri "
+"için, `Linux İçin EFI Açılış Yükleyicileri: Secure Boot İle Başa Çıkma "
+"<http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`_ bağlantısını "
+"inceleyebilirsiniz."
 
 #: ../../efi.rst:23
 msgid "EFI boot order"
@@ -768,7 +776,7 @@ msgid ""
 "Search the forums before asking, in case someone else already asked the same "
 "question."
 msgstr ""
-"Bir şey sormadan önce forumları araştırınız, aynı soru bir başkası "
+"Bir şey sormadan önce lütfen forumları araştırınız, aynı soru bir başkası "
 "tarafından zaten sorulmuş olabilir."
 
 #: ../../help.rst:15
@@ -811,7 +819,7 @@ msgstr ""
 "Bazen birisinin sorunuzu görmesi ve size cevap vermesi birkaç saat "
 "sürebilir. Birkaç dakika sonra ayrılmayınız. Bu sizi rahatsız edebilir, "
 "ancak daha sonra sorunuzu gören ve zaten ayrıldığınız için yanıtlayamayan "
-"diğer kişileri de rahatsız edebilir."
+"diğer kişileri de rahatsız edebileceğini dikkate alınız."
 
 #: ../../help.rst:27
 msgid ""
@@ -819,9 +827,9 @@ msgid ""
 "icon. People will often mention your nickname when replying to you. When "
 "they do, your Hexchat status icon will blink to catch your attention."
 msgstr ""
-"Eğr Hexchat uygulamasını kullanıyorsanız, durum simgesine tıklayarak sistem "
+"Eğer Hexchat uygulamasını kullanıyorsanız, durum simgesine tıklayarak sistem "
 "çekmesine küçültebilirsiniz. Kullanıcılar size yanıt verirken genellikle "
-"takma adınızla bahsedeceklerdir. Bir yapıldığında, Hexchat durum simgesi "
+"takma adınızla bahsedeceklerdir. Bu yapıldığında, Hexchat durum simgesi "
 "dikkatinizi çekmek için yanıp sönecektir."
 
 #: ../../help.rst:30
@@ -846,13 +854,15 @@ msgstr ""
 
 #: ../../help.rst:37
 msgid "Local communities"
-msgstr ""
+msgstr "Yerel topluluklar"
 
 #: ../../help.rst:39
 msgid ""
 "To find help in your language, use the `Local Communities "
 "<https://www.linuxmint.com/links.php>`_."
 msgstr ""
+"Kendi dilinizde yardım bulmak için, `Yerel Topluluklar "
+"<https://www.linuxmint.com/links.php>`_ bağlantısını tıklayınız."
 
 #: ../../index.rst:2
 msgid "Linux Mint Installation Guide"
@@ -863,8 +873,8 @@ msgid ""
 "Linux Mint comes in the form of an ISO image (an .iso file) which can be "
 "used to make a bootable DVD or a bootable USB stick."
 msgstr ""
-"Linux Mint ISO imajı (bir ISO dısyası) biçiminde gelmektedir, bunu açılış "
-"yapabilir DVD ve açılış yapabilir USB bellek oluşturmak için "
+"Linux Mint, ISO imajı (bir ISO dosyası) biçiminde gelmektedir, bunu açılış "
+"yapabilir DVD ya da açılış yapabilir USB bellek oluşturmak için "
 "kullanabilirsiniz."
 
 #: ../../index.rst:10
@@ -872,8 +882,8 @@ msgid ""
 "This guide will help you download the right ISO image, create your bootable "
 "media and install Linux Mint on your computer."
 msgstr ""
-"Bu rehber doğru ISO imajını indirmenize ve Linux Mint'i bilgisayarınıza "
-"kurmak için açılış yapabilir ortam oluşturmanıza yardım olmak içindir."
+"Bu rehber, doğru ISO imajını indirmenize ve Linux Mint'i bilgisayarınıza "
+"kurmak için açılış yapabilir ortam oluşturmanıza yardımcı olmak içindir."
 
 #: ../../install.rst:2
 msgid "Install Linux Mint"
@@ -1632,7 +1642,8 @@ msgstr ""
 #: ../../verify.rst:17
 msgid "Download both ``sha256sum.txt`` and ``sha256sum.txt.gpg``."
 msgstr ""
-"``sha256sum.txt`` ve ``sha256sum.txt.gpg`` dosyalarının her ikisini de indir."
+"``sha256sum.txt`` ve ``sha256sum.txt.gpg`` dosyalarının her ikisini de "
+"indirin."
 
 #: ../../verify.rst:20
 msgid "Integrity check"
@@ -1652,7 +1663,7 @@ msgid ""
 "If you are using Windows you can get the sha256sum (and gpg) command utility "
 "by installing `Cygwin <http://www.cygwin.com/>`_."
 msgstr ""
-"Eğer Windows kullanıyosanız sha256sum (ve gpg) edinmek için `Cygwin "
+"Eğer Windows kullanıyorsanız sha256sum (ve gpg) edinmek için `Cygwin "
 "<http://www.cygwin.com/>`_  yükleyebilirsiniz."
 
 #: ../../verify.rst:31
@@ -1723,11 +1734,3 @@ msgstr ""
 "ISO doğrulama ile ilgili daha fazla bilgi, BETA, LMDE ya da eski sürümlerin "
 "doğrulaması için, `ISO imajları nasıl doğrulanır "
 "<https://linuxmint.com/verify.php>`_ bağlantısını inceleyebilirsiniz."
-
-#~ msgid ""
-#~ "Right-click the ISO file and select :menuselection:`Make Bootable USB "
-#~ "Stick`, or launch :menuselection:`Menu -> Accessories -> USB Image Writer`."
-#~ msgstr ""
-#~ "ISO dosyasına sağ tıklayın ve :menuselection:`Boot edilebilir USB bellek "
-#~ "hazırla` seçeneğini seçin, ya da :menuselection:`Menü -> Donatılar -> USB "
-#~ "Kalıp Yazıcı` uygulamasını açın."

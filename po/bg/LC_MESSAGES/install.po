@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2017-12-13 11:28+0000\n"
-"PO-Revision-Date: 2017-12-11 15:20+0000\n"
-"Last-Translator: Clement Lefebvre <root@linuxmint.com>\n"
+"PO-Revision-Date: 2017-12-14 21:52+0000\n"
+"Last-Translator: spacy01 <Unknown>\n"
 "Language-Team: Bulgarian <bg@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-12-13 12:12+0000\n"
-"X-Generator: Launchpad (build 18511)\n"
+"X-Launchpad-Export-Date: 2018-01-06 14:25+0000\n"
+"X-Generator: Launchpad (build 18521)\n"
 
 #: ../../boot_options.rst:2
 msgid "Boot options"
@@ -84,7 +84,7 @@ msgstr ""
 msgid ""
 "Replace ``quiet splash`` with ``nomodeset`` and press :kbd:`Enter` to boot."
 msgstr ""
-"Заменете ``quiet splash`` с ``nomodeset`` and натиснете :kbd:`Enter` за да "
+"Заменете ``quiet splash`` с ``nomodeset`` и натиснете :kbd:`Enter` за да "
 "стартирате."
 
 #: ../../boot_options.rst:45
@@ -160,11 +160,11 @@ msgstr ""
 
 #: ../../boot.rst:6
 msgid "Insert your USB stick (or DVD) into the computer."
-msgstr "Вкарайте флашката ()или диска в компютъра."
+msgstr "Вкарайте флашката (или диска) в компютъра."
 
 #: ../../boot.rst:8 ../../drivers.rst:23 ../../efi.rst:61 ../../oem.rst:21
 msgid "Restart the computer."
-msgstr "Рестартиране на компютъра."
+msgstr "Рестартирайте компютъра."
 
 #: ../../boot.rst:10
 msgid ""
@@ -201,7 +201,7 @@ msgid ""
 "On Macs, keep your finger pressed on the :kbd:`Alt` or :kbd:`Option` key "
 "after hearing the boot sound."
 msgstr ""
-"За Mac-овете, задръжте натиснат клавиша :kbd:`Alt` ил :kbd:`Option`, след "
+"За Mac-овете, задръжте натиснат клавиша :kbd:`Alt` или :kbd:`Option`, след "
 "като чуете звука при стартиране."
 
 #: ../../boot.rst:18
@@ -253,6 +253,9 @@ msgid ""
 "Right-click the ISO file and select :menuselection:`Make Bootable USB "
 "Stick`, or launch :menuselection:`Menu --> Accessories --> USB Image Writer`."
 msgstr ""
+"Десен бутон на ISO файла и изберете :menuselection:`Създай стартиращ USB "
+"диск`, или стартирайте :menuselection:`Меню --> Помощни програми --> "
+"Създаване на USB диск`."
 
 #: ../../burn.rst:20
 msgid "Select your USB device and click :guilabel:`Write`."
@@ -451,7 +454,7 @@ msgid ""
 "where you feel at home."
 msgstr ""
 "Освен своите функции и производителност, Cinnamon, MATE и Xfce също "
-"представят ти различни работни среди, с различни менюта, различни панели и "
+"представят три различни работни среди, с различни менюта, различни панели и "
 "инструменти за конфигуриране. Най-подходяща за вас е тази, където се "
 "чувствате у дома."
 
@@ -518,8 +521,8 @@ msgid ""
 "If you were online when installing Linux Mint and you ticked the option to "
 "install these codecs, they are already installed."
 msgstr ""
-"Ако сте били онлайн, докато сте инсталирали Линукс Минт и сте били "
-"отбелязали опцията за инсталиране на тези кодеци, вече ги имате."
+"Ако сте били онлайн, докато сте инсталирали Линукс Минт и сте отбелязали "
+"опцията за инсталиране на тези кодеци, вече ги имате."
 
 #: ../../codecs.rst:9
 msgid ""
@@ -622,6 +625,9 @@ msgid ""
 "`Managing EFI Boot Loaders for Linux: Dealing with Secure Boot "
 "<http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`_."
 msgstr ""
+"Примери как да изключите secure boot опцията на някои компютри, прочетете "
+"`Управление на EFI Boot Loaders в Linux: Работа със Secure Boot "
+"<http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`_."
 
 #: ../../efi.rst:23
 msgid "EFI boot order"
@@ -758,7 +764,7 @@ msgstr "Чат стаята"
 
 #: ../../help.rst:17
 msgid "Another great place to find help is in the IRC chat room."
-msgstr "Друго подгодящо място да намерите помощ е IRC чат стаята"
+msgstr "Друго подходящо място да намерите помощ е IRC чат стаята"
 
 #: ../../help.rst:19
 msgid ""
@@ -827,13 +833,15 @@ msgstr ""
 
 #: ../../help.rst:37
 msgid "Local communities"
-msgstr ""
+msgstr "Локални общности"
 
 #: ../../help.rst:39
 msgid ""
 "To find help in your language, use the `Local Communities "
 "<https://www.linuxmint.com/links.php>`_."
 msgstr ""
+"За да намерите помощ на вашия език, използвайте `локалните "
+"общности<https://www.linuxmint.com/links.php>`_."
 
 #: ../../index.rst:2
 msgid "Linux Mint Installation Guide"
@@ -991,7 +999,7 @@ msgstr ""
 "опция да инсталирате Линукс Минт заедно с нея. Ако изберете тази опция, "
 "инсталатора автоматично ще преоразмери вашата съществуваща операционна "
 "система, за да направи място и да инсталира Линукс Минт до нея. Стартиращото "
-"меню ще се настроено да избирате между двете операционни системи всеки път, "
+"меню ще е настроено да избирате между двете операционни системи всеки път, "
 "когато стартирате компютъра."
 
 #: ../../install.rst:64
@@ -1431,8 +1439,8 @@ msgid ""
 "**not to format it**."
 msgstr ""
 "Задайте точка на монтиране за ``/home`` в дял, където да се съхраняват "
-"потребителските данни, и ако там вече има потребителски данни, убедете се ще "
-"казали на инсталатора **да не го форматира**."
+"потребителските данни, и ако там вече има потребителски данни, убедете се че "
+"сте казали на инсталатора **да не го форматира**."
 
 #: ../../partitioning.rst:31
 msgid ""
@@ -1442,7 +1450,7 @@ msgid ""
 msgstr ""
 "Това не се препоръчва за неопитни потребители. Пропуск по време на "
 "инсталацията може да изтрие всичките ви данни. Винаги правете бекъп, убедете "
-"се че ще избрали правилния дял и внимателно проверявайте опциите за "
+"се че сте избрали правилния дял и внимателно проверявайте опциите за "
 "форматиране."
 
 #: ../../partitioning.rst:34
@@ -1692,11 +1700,3 @@ msgstr ""
 "За повече информация за проверката на ISO, или за проверка на BETA, LMDE или "
 "по-стари версии, прочетете `Как да проверя ISO образи "
 "<https://linuxmint.com/verify.php>`_."
-
-#~ msgid ""
-#~ "Right-click the ISO file and select :menuselection:`Make Bootable USB "
-#~ "Stick`, or launch :menuselection:`Menu -> Accessories -> USB Image Writer`."
-#~ msgstr ""
-#~ "Десен бутон на ISO файла и избирате  :menuselection:`Създаване на стартиращ "
-#~ "USB диск`, или стартирайте :menuselection:`Меню -> Аксесоари -> Запис на "
-#~ "образ на USB`."
