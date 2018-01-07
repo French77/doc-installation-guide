@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2017-12-13 11:28+0000\n"
-"PO-Revision-Date: 2017-12-13 12:09+0000\n"
+"PO-Revision-Date: 2017-12-27 12:41+0000\n"
 "Last-Translator: Clement Lefebvre <root@linuxmint.com>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-12-13 12:12+0000\n"
-"X-Generator: Launchpad (build 18511)\n"
+"X-Launchpad-Export-Date: 2018-01-06 14:25+0000\n"
+"X-Generator: Launchpad (build 18521)\n"
 
 #: ../../boot_options.rst:2
 msgid "Boot options"
@@ -26,8 +26,8 @@ msgid ""
 "Some graphics cards and motherboards don't work well with the open-source "
 "drivers present in Linux Mint by default."
 msgstr ""
-"Některé grafické karty a základní desky zatím ještě nefungují zcela správně "
-"s open source ovladači, které jsou v Linux Mint přítomné jako výchozí."
+"Některé grafické čipy a základní desky zatím ještě nefungují zcela správně s "
+"open source ovladači, které jsou v Linux Mint přítomné jako výchozí."
 
 #: ../../boot_options.rst:7
 msgid "Compatibility mode"
@@ -47,11 +47,11 @@ msgstr "Nabídka zavaděče GRUB (EFI režim)"
 
 #: ../../boot_options.rst:21
 msgid "Isolinux menu (BIOS mode)"
-msgstr "Nabídka zavaděče isolinux (BIOS režim)"
+msgstr "Nabídka zavaděče ISOLINUX (BIOS režim)"
 
 #: ../../boot_options.rst:23
 msgid "If that doesn't work, you can try the ``nomodeset`` boot option."
-msgstr "Pokud to nezafunguje, můžete zkusit volbu zavádění ``nomodeset``."
+msgstr "Pokud to nezafunguje, můžete zkusit parametr jádra ``nomodeset``."
 
 #: ../../boot_options.rst:26
 msgid "Nomodeset boot option"
@@ -83,16 +83,15 @@ msgstr ""
 msgid ""
 "Replace ``quiet splash`` with ``nomodeset`` and press :kbd:`Enter` to boot."
 msgstr ""
-"Nahraďte ``quiet splash`` za ``nomodeset`` a stiskem :kbd:`Enter` "
-"nastartujte."
+"Nahraďte ``quiet splash`` za ``nomodeset`` a spusťte stisknutím :kbd:`Enter`."
 
 #: ../../boot_options.rst:45
 msgid ""
 "Repeat this operation post-install in your grub boot menu and read "
 ":doc:`drivers` to install additional drivers."
 msgstr ""
-"Zopakujte tuto operaci po instalaci v nabídce zavaděče grub a přečtěte si "
-":doc:`drivers`, jak nainstalovat dodatečné ovladače."
+"Tuto operaci pak zopakujte při spuštění nainstalovaného systému (v nabídce "
+"zavaděče grub) a přečtěte si, jak nainstalovat dodatečné :doc:`ovladače`."
 
 #: ../../boot_options.rst:48
 msgid "Other boot options"
@@ -105,7 +104,7 @@ msgstr ""
 
 #: ../../boot_options.rst:52
 msgid "Try ``nouveau.noaccel=1`` instead of ``nomodeset``."
-msgstr "Zkuste ``nouveau.noaccel=1`` namísto ``nomodeset``."
+msgstr "Zkuste namísto ``nomodeset`` dát ``nouveau.noaccel=1``."
 
 #: ../../boot_options.rst:53
 msgid ""
@@ -113,7 +112,7 @@ msgid ""
 "mode` from the boot menu and choose ``resume``."
 msgstr ""
 "Po instalaci použijte :menuselection:`Advanced Options --> Recovery mode` z "
-"nabídky zavaděče nabídky a zvolte ``resume`` (obnovit)."
+"nabídky zavaděče a zvolte ``resume``."
 
 #: ../../boot_options.rst:56
 msgid "Install an older release"
@@ -124,8 +123,8 @@ msgid ""
 "If your computer has compatibility issues with the latest Linux Mint "
 "release, install a previous release from the same Linux Mint series."
 msgstr ""
-"Pokud má váš počítač problémy se slučitelností s nejnovějším vydáním Linux "
-"Mint, nainstalujte předchozí vydání stejné série Linux Mint."
+"Pokud jsou s počítačem problémy ohledně slučitelností s nejnovějším vydáním "
+"Linux Mint, nainstalujte předchozí vydání stejné série Linux Mint."
 
 #: ../../boot_options.rst:60
 msgid ""
@@ -134,8 +133,8 @@ msgid ""
 "to 18.3."
 msgstr ""
 "Například, pokud se nedaří nainstalovat Linux Mint 18.3 (který přichází s "
-"jádrem 4.10), nainstalujte Linux Mint 18 (který přihází s jádrem 4.4) a "
-"přejděte na 18.3 (verze jádra zůstane původní)."
+"jádrem 4.10), nainstalujte Linux Mint 18 (s jádrem 4.4) a pak (aktualizací) "
+"přejděte na 18.3."
 
 #: ../../boot_options.rst:63
 msgid ""
@@ -143,12 +142,12 @@ msgid ""
 "Upgrading from this release to the latest one in the series does not change "
 "your kernel."
 msgstr ""
-"První vydání v každé sérii používá jádro s dlouhou podporou (LTS). Přechod "
-"na novější verzi vydání v rámci jedné série nezmění jádro."
+"První vydání v každé sérii používá jádro s dlouhodobou podporou (LTS). A "
+"přechod na novější verzi vydání v rámci jedné série nemění jádro."
 
 #: ../../boot.rst:2
 msgid "Boot Linux Mint"
-msgstr "Zavést Linux Mint"
+msgstr "Spuštění Linux Mint"
 
 #: ../../boot.rst:4
 msgid ""
@@ -163,7 +162,7 @@ msgstr "Připojte tuto USB klíčenku (nebo vložte DVD) do počítače."
 
 #: ../../boot.rst:8 ../../drivers.rst:23 ../../efi.rst:61 ../../oem.rst:21
 msgid "Restart the computer."
-msgstr "Restartujte počítač"
+msgstr "Restartujte počítač."
 
 #: ../../boot.rst:10
 msgid ""
@@ -173,9 +172,10 @@ msgid ""
 "which key to press and instruct your computer to boot on USB (or DVD)."
 msgstr ""
 "Ještě než počítač spustí stávající operační systém (Windows, macOS, Linux), "
-"měli byste vidět `BIOS <https://en.wikipedia.org/wiki/BIOS>`_ loading "
-"screen. Check the screen or your computer's documentation to know which key "
-"to press and instruct your computer to boot on USB (or DVD)."
+"měli byste vidět obrazovku načítání `BIOS "
+"<https://en.wikipedia.org/wiki/BIOS>`_. Z ní nebo dokumentace k počítači "
+"zjistěte, kterou klávesu stisknout pro to, aby se zobrazila nabídka, ze "
+"které bude možné zvolit spuštění počítače z USB (nebo DVD)."
 
 #: ../../boot.rst:13
 msgid ""
@@ -186,37 +186,37 @@ msgid ""
 ":kbd:`F11`, :kbd:`F12`, or :kbd:`Delete`. That information is usually "
 "briefly written on the screen during the boot sequence."
 msgstr ""
-"Většina BIOS má speciální klávesu jejímž stisknutím vyberte spouštěcí "
-"zařízení a všechny mají speciální klávesu pro vstup do nastavení BIOS (odkud "
-"je možné určit pořadí zavádění). Dle daného BIOS, tyto speciální klávesy "
-"mohou být :kbd:`ESC`, :kbd:`F1`, :kbd:`F2`, :kbd:`F8`, :kbd:`F10`, "
-":kbd:`F11`, :kbd:`F12`, nebo :kbd:`DEL`. Tento údaj je obvykle krátce "
-"zobrazen na obrazovce při zavádění."
+"Většina BIOS má speciální klávesu, stisknutím které vyberete spouštěcí "
+"zařízení. A všechny pak mají speciální klávesu pro vstup do nastavení BIOS "
+"(odkud je možné určit pořadí zavádění). Dle daného BIOS, tyto speciální "
+"klávesy mohou být :kbd:`ESC`, :kbd:`F1`, :kbd:`F2`, :kbd:`F8`, :kbd:`F10`, "
+":kbd:`F11`, :kbd:`F12`, nebo :kbd:`DEL`. Tento údaj je obvykle na okamžik "
+"zobrazen na obrazovce krátce po zapnutí počítače."
 
 #: ../../boot.rst:16
 msgid ""
 "On Macs, keep your finger pressed on the :kbd:`Alt` or :kbd:`Option` key "
 "after hearing the boot sound."
 msgstr ""
-"Na počítačích Apple Mac stiskněte a držte :kbd:`ALT` nebo :kbd:`Option` "
-"klávesu poté, co uslyšíte zvuk spouštění."
+"Na počítačích Apple Mac, poté co uslyšíte zvuk spouštění,  stiskněte a držte "
+"klávesu :kbd:`ALT` nebo :kbd:`Option`."
 
 #: ../../boot.rst:18
 msgid ""
 "The Linux Mint ISO can be booted both in EFI or BIOS mode. In EFI mode it "
 "shows a grub menu. In BIOS mode it shows an isolinux menu."
 msgstr ""
-"ISO s Linux Mint může být spuštěno v režimu EFI nebo BIOS. V tom EFI se "
-"zobrazí nabídka zavaděče Grub. V režimu BIOS je zobrazena nabídka zavaděče "
-"isolinux."
+"ISO s Linux Mint může být spuštěno jak v EFI, tak BIOS režimu. V tom EFI se "
+"zobrazí nabídka zavaděče GRUB. V režimu BIOS je zobrazena nabídka zavaděče "
+"ISOLINUX."
 
 #: ../../boot.rst:24
 msgid "The isolinux menu in BIOS mode"
-msgstr "Nabídka zavaděče isolinux v BIOS režimu"
+msgstr "Nabídka zavaděče ISOLINUX v BIOS režimu"
 
 #: ../../boot.rst:30
 msgid "The grub menu in EFI mode"
-msgstr "Nabídka zavaděče grub v EFI režimu"
+msgstr "Nabídka zavaděče GRUB v EFI režimu"
 
 #: ../../boot.rst:32
 msgid ""
@@ -228,11 +228,12 @@ msgstr ""
 
 #: ../../burn.rst:2
 msgid "Create the bootable media"
-msgstr "Vytvořit spouštěcí médium"
+msgstr "Vytvoření spouštěcího média"
 
 #: ../../burn.rst:4
 msgid "The easiest way to install Linux Mint is with a USB stick."
-msgstr "Nejsnažší způsob jak nainstalovat Linux Mint je pomocí USB klíčenky."
+msgstr ""
+"Nejsnazší způsob, jak nainstalovat Linux Mint, je pomocí USB klíčenky."
 
 #: ../../burn.rst:6
 msgid "If you cannot boot from USB, you can use a blank DVD."
@@ -252,6 +253,9 @@ msgid ""
 "Right-click the ISO file and select :menuselection:`Make Bootable USB "
 "Stick`, or launch :menuselection:`Menu --> Accessories --> USB Image Writer`."
 msgstr ""
+"Klikněte pravým tlačítkem na ISO soubor a vyberte :menuselection:`Vytvořit "
+"spouštěcí USB klíčenku`, nebo spusťte :menuselection:`Nabídka --> "
+"Příslušenství --> Zápis USB obrazu`."
 
 #: ../../burn.rst:20
 msgid "Select your USB device and click :guilabel:`Write`."
@@ -293,7 +297,7 @@ msgstr "Optické disky jsou pomalé a jejich vypalování je náchylné k chybá
 
 #: ../../burn.rst:46
 msgid "To prevent issues, burn at the lowest possible speed."
-msgstr "Pro předejití potížím, vypalujte s rozumně nízkou rychlostí."
+msgstr "Pro předejití potížím, vypalujte ( rozumně) nízkou rychlostí."
 
 #: ../../burn.rst:49
 msgid ""
@@ -301,9 +305,9 @@ msgid ""
 "finished, your DVD should contain directories such as ``boot`` and "
 "``casper``, it shouldn't be an empty DVD containing an .iso file."
 msgstr ""
-"Vypalte obsah ISO souboru na DVD, ne ISO soubor samotný. Jakmile bude "
-"hotovo, DVD by mělo obsahovat složky jako ``boot`` a ``casper``, nemělo by "
-"zůstat prázdné s jediným .iso souborem."
+"Na DVD vypalte obsah ISO souboru, ne ISO soubor samotný. Po dokončení, DVD "
+"by mělo obsahovat složky jako ``boot`` a ``casper`` – nemělo by být prázdné "
+"s jediným .iso souborem."
 
 #: ../../burn.rst:52
 msgid "In Linux"
@@ -320,14 +324,15 @@ msgstr "V systému Microsoft Windows"
 #: ../../burn.rst:57
 msgid "Right-click the ISO file and select :menuselection:`Burn disk image`."
 msgstr ""
-"Pravým tlačítkem klikněte na ISO soubor :menuselection:`Vypálit obraz disku`."
+"Pravým tlačítkem klikněte na ISO soubor a zvolte :menuselection:`Vypálit "
+"obraz disku`."
 
 #: ../../burn.rst:59
 msgid ""
 "To make sure the ISO was burned without any errors, select "
 ":menuselection:`Verify disc after burning`."
 msgstr ""
-"Pro ověření, že ISO bylo vypáleno bez chyb vyberte :menuselection:`Ověřit "
+"Pro ověření, že ISO bylo vypáleno bez chyb, vyberte :menuselection:`Ověřit "
 "disk po vypálení`."
 
 #: ../../burn.rst:62
@@ -343,7 +348,7 @@ msgstr ""
 
 #: ../../choose.rst:2
 msgid "Choose the right edition"
-msgstr "Zvolte správné vydání"
+msgstr "Volba vhodné varianty"
 
 #: ../../choose.rst:4
 msgid ""
@@ -402,7 +407,7 @@ msgid ""
 "of new features."
 msgstr ""
 "Nejoblíbenější variantou Linux Mint je ta s prostředím Cinnamon. Desktop "
-"Cinnamon je převážně vyvíjený v rámci Linux Mint, pro který je také hlavně "
+"Cinnamon je vyvíjený převážně v rámci Linux Mint, pro který je také hlavně "
 "určen. Toto prostředí je dopodrobna pojednané, včetně vzhledu a plné "
 "nejnovějších funkcí."
 
@@ -414,11 +419,11 @@ msgid ""
 "development is slower than Cinnamon's, MATE runs faster, uses less resources "
 "and is more stable than Cinnamon."
 msgstr ""
-"Linux Mint se také účastní vývoje MATE, klasického desktopového prostředí "
-"které je pokračováním GNOME 2, což bylo výchozí prostředí v Linux Mint v "
-"letech 2006 až 2011. Ačkoli postrádá některé funkce a jeho vývoj je "
+"Tvůrci Linux Mint se podílejí také na vývoji MATE, klasického desktopového "
+"prostředí, které je pokračováním GNOME 2, což bylo výchozí prostředí v Linux "
+"Mint v letech 2006 až 2011. Ačkoli postrádá některé funkce a jeho vývoj je "
 "pomalejší než v případě Cinnamon, MATE je rychlejší, zabírá si méně "
-"systémových prostředků a ja stabilnější, než Cinnamon."
+"systémových prostředků a je stabilnější, než Cinnamon."
 
 #: ../../choose.rst:37
 msgid ""
@@ -426,9 +431,9 @@ msgid ""
 "features as Cinnamon or MATE, but it's extremely stable and very light on "
 "resource usage."
 msgstr ""
-"Xfce je nenáročné prostředí. Neumí toho sice tolik jako Cinnamon, ale je "
+"Xfce je nenáročné prostředí. Neumí toho sice tolik jako Cinnamon, zato je "
 "velmi stabilní a zabírá velmi málo prostředků počítače. Hodí se tedy na méně "
-"výkonné (starší) počítače."
+"výkonné (a starší) počítače."
 
 #: ../../choose.rst:46
 msgid ""
@@ -471,7 +476,7 @@ msgstr "32bitový nebo 64bitový?"
 
 #: ../../choose.rst:56
 msgid "64-bit is recommended."
-msgstr "64bitový je doporučený."
+msgstr "Doporučeno je 64bit."
 
 #: ../../choose.rst:58
 msgid ""
@@ -493,7 +498,7 @@ msgid ""
 msgstr ""
 "Pokud máte starší počítač a nevíte, zda je nebo není schopen provozu v "
 "64bitech, najděte si jeho procesor v `X86 Chronology "
-"<https://en.wikipedia.org/wiki/X86#Chronology>`_."
+"<https://en.wikipedia.org/wiki/X86#Chronology>`_ (v angličtině)."
 
 #: ../../choose.rst:63
 msgid ""
@@ -538,14 +543,14 @@ msgstr ""
 
 #: ../../drivers.rst:2
 msgid "Hardware drivers"
-msgstr "Ovladače hardwaru"
+msgstr "Ovladače hardware"
 
 #: ../../drivers.rst:4
 msgid ""
 "One of the first things to do after installing Linux Mint is to check for "
 "available hardware drivers."
 msgstr ""
-"Jedna z prvních věcí kterou udělat po instalaci Linux Mint je zkontrolovat "
+"Jedna z prvních věcí. kterou udělat po instalaci Linux Mint, je zkontrolovat "
 "dostupnost ovladačů pro zařízení."
 
 #: ../../drivers.rst:6
@@ -619,6 +624,9 @@ msgid ""
 "`Managing EFI Boot Loaders for Linux: Dealing with Secure Boot "
 "<http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`_."
 msgstr ""
+"Příklady toho, jak vypnout  secure boot na různých počítačích, naleznete v "
+"`Managing EFI Boot Loaders for Linux: Dealing with Secure Boot "
+"<http://www.rodsbooks.com/efi-bootloaders/secureboot.html>`_ (v angličtině)."
 
 #: ../../efi.rst:23
 msgid "EFI boot order"
@@ -742,7 +750,7 @@ msgid ""
 "The best place to find help is on the `Linux Mint Forums "
 "<https://forums.linuxmint.com>`_."
 msgstr ""
-"Nejlepší místo kde hledat pomoc je `diskuzní fórum Linux Mint "
+"Nejlepší místo, kde hledat pomoc, je `diskuzní fórum Linux Mint "
 "<https://forums.linuxmint.com>`_."
 
 #: ../../help.rst:12
@@ -759,7 +767,7 @@ msgstr "Chatovací místnost"
 
 #: ../../help.rst:17
 msgid "Another great place to find help is in the IRC chat room."
-msgstr "Další skvělé místo kde hledat pomoc je IRC chatovací místnost."
+msgstr "Další skvělé místo, kde hledat pomoc, je IRC chatovací místnost."
 
 #: ../../help.rst:19
 msgid ""
@@ -775,9 +783,9 @@ msgid ""
 "<https://kiwiirc.com/client/irc.spotchat.org/?i#linuxmint-help>`_ to connect "
 "to the chat room."
 msgstr ""
-"Pokud používáte jiný operační systém, můžete použít `Kiwiirc "
-"<https://kiwiirc.com/client/irc.spotchat.org/?i#linuxmint-help>`_ pro "
-"připojení do chatovací místnosti."
+"Pokud používáte jiný operační systém, můžete pro přístup do chatovací "
+"místnosti použít `Kiwiirc "
+"<https://kiwiirc.com/client/irc.spotchat.org/?i#linuxmint-help>`_."
 
 #: ../../help.rst:24
 msgid ""
@@ -788,12 +796,12 @@ msgid ""
 "frustrating to you, but also to others who later see your question and are "
 "unable to reply because you already left."
 msgstr ""
-"Mnozí lidé jsou připojení do chatovací místnosti ale podívají se na "
-"komunikaci jen občas. Při kladení dotazů buďte trpěliví. Neopakujte je a "
-"zůstaňte připojení dokud nedostanete odpověď. Někdy to trvá i pár hodin, než "
-"si někdo všimne vašeho dotazu a odpoví. Neodcházejte po pár minutách. Je to "
-"sice frustrující, ale také by bylo pro ostatní vidět vaše dotazy a nemoci "
-"vám odpovědět, protože už jste odešli."
+"Lidé připojení do chatovací místnosti mnohdy sledují komunikaci jen občas. "
+"Při kladení dotazů proto buďte trpěliví. Neopakujte je a zůstaňte připojení, "
+"dokud nedostanete odpověď. Někdy to trvá i pár hodin, než si někdo všimne "
+"vašeho dotazu a odpoví. Neodcházejte tedy po pár minutách. Je to sice "
+"frustrující, ale to by bylo také i pro ostatní – vidět vaše dotazy a nemoci "
+"vám odpovědět, protože už jste se odpojili."
 
 #: ../../help.rst:27
 msgid ""
@@ -814,26 +822,28 @@ msgid ""
 "The `tutorials section <https://community.linuxmint.com/tutorial/search>`_ "
 "is useful to find tutorials about Linux Mint."
 msgstr ""
-"`Sekce návody <https://community.linuxmint.com/tutorial/search>`_ je "
-"užitečná pro vyhledání návodů k Linux Mint."
+"`Sekce návody <https://community.linuxmint.com/tutorial/search>`_  je "
+"užitečná pro vyhledání návodů, co jak dělat v Linux Mint."
 
 #: ../../help.rst:34
 msgid ""
 "The `hardware database <https://community.linuxmint.com/hardware/search>`_ "
 "is useful to find compatible hardware."
 msgstr ""
-"`Databáze hardware <https://community.linuxmint.com/hardware/search>`_ je "
+"`Databáze hardware <https://community.linuxmint.com/hardware/search>`_  je "
 "užitečná pro nalezení hardware, který bude fungovat."
 
 #: ../../help.rst:37
 msgid "Local communities"
-msgstr ""
+msgstr "Místní komunity"
 
 #: ../../help.rst:39
 msgid ""
 "To find help in your language, use the `Local Communities "
 "<https://www.linuxmint.com/links.php>`_."
 msgstr ""
+"Pro nalezení pomoci ve svém jazyce použijte `Místní komunity "
+"<https://www.linuxmint.com/links.php>`_."
 
 #: ../../index.rst:2
 msgid "Linux Mint Installation Guide"
@@ -852,12 +862,12 @@ msgid ""
 "This guide will help you download the right ISO image, create your bootable "
 "media and install Linux Mint on your computer."
 msgstr ""
-"Tato příručka vám pomůže stáhnout správný ISO obraz, vytvořit instalační "
-"médium a nainstalovat Linux Mint na váš počítač."
+"Tato příručka vám pomůže stáhnout si vhodný ISO obraz, vytvořit z něj "
+"instalační médium a z toho pak nainstalovat Linux Mint na váš počítač."
 
 #: ../../install.rst:2
 msgid "Install Linux Mint"
-msgstr "Nainstalovat Linux Mint"
+msgstr "Instalace Linux Mint"
 
 #: ../../install.rst:5
 msgid "The live session"
@@ -900,9 +910,8 @@ msgid ""
 "to the USB stick (or DVD) and they do not impact the system installed by the "
 "installer."
 msgstr ""
-"Změny které uděláte v živém sezení nejsou trvalé. Nejsou zapsány na USB "
-"klíčenku (nebo DVD) a nepřenesou se do systému následně nainstalovanému "
-"instalátorem."
+"Změny, které uděláte v živém sezení, nejsou trvalé. Nejsou zapsány na USB "
+"klíčenku (nebo DVD) a nepřenesou se do následně nainstalovaného systému."
 
 #: ../../install.rst:19
 msgid ""
@@ -972,13 +981,14 @@ msgid ""
 "directory encryption instead (you can select it later during the "
 "installation)."
 msgstr ""
-":guilabel:`Zašifrovat novou instalaci Linux Mint pro zabezpečení` odkazuje "
-"na šifrování celého datového úložiště. V této fázi instalaci ještě nebylo "
-"zvoleno rozvržení klávesnice, takže je en_US. Pokud se rozhodnete pro tuto "
-"volbu, pamatujte na to. Poznamenejme, že s touto volbou jsou problémy ve "
-"spojení s některými ovladači NVIDIA. Pokud jste v Linuxu nováčky, použijte "
-"namísto toho šifrování pouze domovské složky (to vyberete v pozdějších "
-"krocích instalace)."
+":guilabel:`Zabezpečit novou instalaci Linux Mint šifrováním` odkazuje na "
+"šifrování celé jednotky datového úložiště. V této fázi instalaci ještě "
+"nebylo zvoleno rozvržení klávesnice, takže je anglické (en_US). Pokud se "
+"tedy rozhodnete pro tuto volbu, pamatujte na to při zadávání hesla. "
+"Poznamenejme, že s touto volbou jsou problémy ve spojení s některými "
+"ovladači grafických čipů NVIDIA. Pokud jste v Linuxu nováčky, použijte "
+"namísto toho raději šifrování pouze domovské složky (to vyberete v "
+"pozdějších krocích instalace)."
 
 #: ../../install.rst:60
 msgid ""
@@ -988,24 +998,25 @@ msgid ""
 "room and installs Linux Mint beside it. A boot menu is set up to choose "
 "between the two operating systems each time you start your computer."
 msgstr ""
-"Pokud se na počítači nachází ještě nějaký další operační systém, instalátor "
-"nabídne nainstalovat Linux Mint vedle něho. Pokud zvolíte tuto možnost, "
-"instalátor automaticky zmenší stávající operační systém a udělá tak prostor "
-"pro instalaci Linux Mint. Pokaždé, když pak spustíte počítač se zobrazí "
-"nabídka ze které zvolíte který operační systém spustit."
+"Pokud se na počítači nachází ještě nějaký další operační systém, bude "
+"nabídnuta instalace Linux Mint vedle něho. Pokud zvolíte tuto možnost, "
+"instalátor automaticky zmenší oddíl se stávajícím operačním systémem a udělá "
+"tak prostor pro instalaci Linux Mint. Pokaždé, když pak spustíte počítač, se "
+"zobrazí nabídka ze které zvolíte který operační systém spustit."
 
 #: ../../install.rst:64
 msgid ""
 "If you want to manage the partitions or specify which partitions to use, "
 "select :guilabel:`Something else`."
 msgstr ""
-"Pokud chcete spravovat oddíly nebo určit, které použít, vyberte "
+"Pokud chcete ručně spravovat oddíly nebo určit, které použít, vyberte "
 ":guilabel:`Něco jiného`."
 
 #: ../../install.rst:70
 msgid ""
 "Linux Mint requires one partition to be mounted on the root ``/`` directory."
-msgstr "Linux Mint potřebuje, aby jeden oddíl byl připojen ve složce ``/``."
+msgstr ""
+"Pro Linux Mint je potřeba, aby jeden oddíl byl připojený do složky ``/``."
 
 #: ../../install.rst:72
 msgid ""
@@ -1013,13 +1024,13 @@ msgid ""
 "data) takes roughly 15GB, so give this partition a decent size (100GB or "
 "more)."
 msgstr ""
-"Operační systém Linux Mint (bez dalšího software nebo dat uživatelů) zabere "
+"Operační systém Linux Mint zabere (bez dalšího software nebo dat uživatelů) "
 "přibližně 15GB, takže tomuto oddílu dejte rozumnou velikost (100 a více GB)"
 
 #: ../../install.rst:74
 msgid "``ext4`` is recommended. It is the most popular Linux filesystem."
 msgstr ""
-"``ext4`` je doporučený. Je to nejoblíbenější linuxový souborový systém."
+"Doporučeným je ``ext4``. Je to nejoblíbenější linuxový souborový systém."
 
 #: ../../install.rst:79
 msgid ""
@@ -1027,9 +1038,10 @@ msgid ""
 "as a safety buffer in case your computer runs out of RAM. Give this "
 "partition a size equal to the amount of RAM in your computer."
 msgstr ""
-"Také vytvořte oddíl ``swap`` (stránkovací). Ten je používán pro hibernaci a "
-"jako rezerva, pokud počítači dojdou kapacity operační paměti (RAM). Dejte "
-"tomuto oddílu velikost rovnající se 1,5 násobku množství RAM v počítači."
+"Vytvořte také oddíl ``swap`` (stránkovací). Ten je používán pro hibernaci "
+"(„uspávání“ počítače) a jako rezerva, pokud počítači dojdou kapacity "
+"operační paměti (RAM). Dejte tomuto oddílu velikost rovnající se 1,5 násobku "
+"kapacity RAM paměti počítače."
 
 #: ../../install.rst:81
 msgid "Select your timezone"
@@ -1041,7 +1053,7 @@ msgstr "Vyberte rozvržení klávesnice"
 
 #: ../../install.rst:93
 msgid "Enter your user details"
-msgstr "Zadejte podrobnosti ke svému uživatelskému účtu"
+msgstr "Zadejte podrobnosti pro svůj uživatelský účet"
 
 #: ../../install.rst:99
 msgid ""
@@ -1057,7 +1069,7 @@ msgid ""
 "of your computer on the network."
 msgstr ""
 "``Uživatelské jméno`` je to, kterým se přihlašujete a ``název počítače`` je "
-"název, pod kterým bude počítač vystupovat na síti."
+"ten, pod kterým bude vystupovat na síti."
 
 #: ../../install.rst:103
 msgid ""
@@ -1131,7 +1143,7 @@ msgstr ""
 
 #: ../../multiboot.rst:2
 msgid "Multi-boot"
-msgstr ""
+msgstr "Multi-boot"
 
 #: ../../multiboot.rst:5
 msgid "Always install Windows first"
@@ -1452,7 +1464,7 @@ msgstr ""
 
 #: ../../sections.rst:5
 msgid "Download"
-msgstr "Stáhnout"
+msgstr "Stažení"
 
 #: ../../sections.rst:7
 msgid "Live Boot"
@@ -1540,7 +1552,7 @@ msgstr "Klikněte na :guilabel:`Dokončit`."
 
 #: ../../verify.rst:2
 msgid "Verify your ISO image"
-msgstr "Ověřetní neporušenosti ISO obrazu"
+msgstr "Ověření neporušenosti ISO obrazu"
 
 #: ../../verify.rst:4
 msgid ""
@@ -1556,7 +1568,7 @@ msgid ""
 "trigger random issues during the installation."
 msgstr ""
 "Kontrola neporušenosti ověří, zda byl ISO obraz stažený v pořádku, tedy že "
-"tento soubor u vás na počítači je přesnou kopií souboru který se nachází na "
+"tento soubor u vás na počítači je přesnou kopií souboru, který se nachází na "
 "distribučních serverech. Chyba při stahování může vést k poškozenému "
 "souboru, ze kterého by instalace vedla k nahodilým chybám."
 
@@ -1593,7 +1605,7 @@ msgid ""
 "<https://ftp.heanet.ie/mirrors/linuxmint.com/stable/>`_ and click the "
 "version of the Linux Mint release you downloaded."
 msgstr ""
-"Pokud se nedaří je najít, jděte na `Distribuční zrcadlo Heanet "
+"Pokud se nedaří je najít, jděte na `distribuční zrcadlo Heanet "
 "<https://ftp.heanet.ie/mirrors/linuxmint.com/stable/>`_ a klikněte na verzi "
 "Linux Mint, kterou jste si stáhli."
 
@@ -1619,7 +1631,7 @@ msgid ""
 "by installing `Cygwin <http://www.cygwin.com/>`_."
 msgstr ""
 "Pokud to provádíte na Windows, nástroj sha256sum (a také gpg) pro příkazový "
-"řádek je možné získat v rámci instalace `Prostředí Cygwin "
+"řádek je možné získat v rámci instalace `prostředí Cygwin "
 "<http://www.cygwin.com/>`_."
 
 #: ../../verify.rst:31
@@ -1691,11 +1703,3 @@ msgstr ""
 "Více informací o ověřování ISO souborů, nebo jak ověřit BETA, LDME a starší "
 "vydání, si přečtete (v angličtině) `Jak ověřovat ISO obrazy "
 "<https://linuxmint.com/verify.php>`_."
-
-#~ msgid ""
-#~ "Right-click the ISO file and select :menuselection:`Make Bootable USB "
-#~ "Stick`, or launch :menuselection:`Menu -> Accessories -> USB Image Writer`."
-#~ msgstr ""
-#~ "Klikněte pravým tlačítkem na ISO soubor a vyberte :menuselection:`Vytvořít "
-#~ "spouštěcí USB klíčenku`, nebo spusťte :menuselection:`Nabídka --> "
-#~ "Příslušenství --> Zápis USB obrazů`."
