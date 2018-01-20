@@ -7,8 +7,6 @@ Deze in het Nederlands vertaalde handleiding is te bekijken zie:  https://linuxm
 
 De documenten zijn geschreven in `geherstructureerde Tekst <http://www.sphinx-doc.org/rest.html>`_.
 
-Aangemaakt:
-------
 
 .. image:: https://readthedocs.org/projects/linuxmint-installation-guide/badge/?version=latest
     :target: https://linuxmint-installation-guide.readthedocs.io/en/latest/?badge=latest
