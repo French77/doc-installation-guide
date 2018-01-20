@@ -1,11 +1,11 @@
 .. image:: https://i.imgur.com/8OSIkB3.png"Screenshot.
 
-Linux Mint Installation Guide
+Linux Mint Installatie Handleiding
 =============================
 
-This document can be read at https://linuxmint-installation-guide.readthedocs.io/nl/latest/
+Deze handleiding is te bekijken zie:  https://linuxmint-installation-guide.readthedocs.io/nl/latest/
 
-The docs are written in `reStructuredText <http://www.sphinx-doc.org/rest.html>`_.
+De documenten zijn geschreven in `geherstructureerde Tekst <http://www.sphinx-doc.org/rest.html>`_.
 
 Build:
 ------
@@ -15,8 +15,7 @@ Build:
     :alt: Documentation Status
 
 
-To build locally install ``python-sphinx`` and run ``make html`` in the ``docs`` directory.
-
+Om lokaal `` python-sphinx`` te bouwen en `` make html`` in de map `` docs`` uit te voeren.
 Resources:
 ----------
 
@@ -25,7 +24,7 @@ Resources:
 * http://www.writethedocs.org/guide/
 * https://developers.google.com/style/highlights
 
-License:
+Licensie:
 --------
 
 .. image:: https://img.shields.io/badge/code-GPLv3-blue.svg
