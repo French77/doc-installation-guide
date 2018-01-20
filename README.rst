@@ -3,7 +3,7 @@
 Linux Mint Installation Guide
 =============================
 
-This document can be read at https://linuxmint-installation-guide.readthedocs.io.
+This document can be read at https://linuxmint-installation-guide.readthedocs.io/nl/latest/
 
 The docs are written in `reStructuredText <http://www.sphinx-doc.org/rest.html>`_.
 
