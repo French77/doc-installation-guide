@@ -12,7 +12,6 @@ De documenten zijn geschreven in `geherstructureerde Tekst <http://www.sphinx-do
     :target: https://linuxmint-installation-guide.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
 
-Om lokaal `` python-sphinx`` te bouwen en `` make html`` in de map `` docs`` uit te voeren.
 
 Hulpbronnen:
 ----------
