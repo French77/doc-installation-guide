@@ -3,21 +3,20 @@
 Linux Mint Installatie Handleiding
 =============================
 
-Deze handleiding is te bekijken zie:  https://linuxmint-installation-guide.readthedocs.io/nl/latest/
+Deze in het Nederlands vertaalde handleiding is te bekijken zie:  https://linuxmint-installation-guide.readthedocs.io/nl/latest/
 
 De documenten zijn geschreven in `geherstructureerde Tekst <http://www.sphinx-doc.org/rest.html>`_.
 
-Build:
+Aangemaakt:
 ------
 
 .. image:: https://readthedocs.org/projects/linuxmint-installation-guide/badge/?version=latest
     :target: https://linuxmint-installation-guide.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
 
-
 Om lokaal `` python-sphinx`` te bouwen en `` make html`` in de map `` docs`` uit te voeren.
 
-Resources:
+Hulpbronnen:
 ----------
 
 * https://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html
