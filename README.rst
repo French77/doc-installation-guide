@@ -16,6 +16,7 @@ Build:
 
 
 Om lokaal `` python-sphinx`` te bouwen en `` make html`` in de map `` docs`` uit te voeren.
+
 Resources:
 ----------
 
